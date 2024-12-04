@@ -12,8 +12,9 @@
     udiskie
     libnotify
     brightnessctl
-	
+
     zip
+    xarchiver
 
     fish
 
