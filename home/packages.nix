@@ -13,6 +13,7 @@
     libnotify
     brightnessctl
 
+    unzip
     zip
     ark
 
