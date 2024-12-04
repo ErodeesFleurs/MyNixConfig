@@ -16,6 +16,7 @@
     unzip
     zip
     ark
+    okteta
 
     fish
 
