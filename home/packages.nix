@@ -14,7 +14,7 @@
     brightnessctl
 
     zip
-    xarchiver
+    ark
 
     fish
 
