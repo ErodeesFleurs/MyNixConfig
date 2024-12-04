@@ -22,6 +22,7 @@
 
     qq
     wechat-uos
+    osu-lazer-bin
   ];
 
 }
