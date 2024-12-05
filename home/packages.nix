@@ -17,11 +17,13 @@
     zip
     ark
     okteta
+    lazygit
 
     fish
 
     qq
     wechat-uos
+    hmcl
     osu-lazer-bin
   ];
 
