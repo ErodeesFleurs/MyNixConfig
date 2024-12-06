@@ -13,5 +13,6 @@
     ./waybar
     ./xdg
     ./yazi
+    ./zed
   ];
 }
