@@ -1,20 +1,17 @@
 {
   imports = [
-    ./hypr
+    ./alacritty
+    ./chromium
+    ./dunst
+    ./easyeffects
     ./fastfetch
+    ./git
+    ./hypr
+    ./nixvim
+    ./other
     ./rofi
-
-    ./alacritty.nix
-    ./bash.nix
-    ./chromium.nix
-    ./dunst.nix
-    ./easyeffects.nix
-    ./git.nix
-    ./waybar.nix
-    ./xdg.nix
-    ./yazi.nix
-    ./nixvim.nix
-
-    ./packages.nix
+    ./waybar
+    ./xdg
+    ./yazi
   ];
 }
