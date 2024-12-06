@@ -8,7 +8,7 @@
     ./git
     ./hypr
     ./nixvim
-    ./other
+    ./others
     ./rofi
     ./waybar
     ./xdg
