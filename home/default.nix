@@ -8,6 +8,7 @@
     ./git
     ./hypr
     ./nixvim
+    ./obs-studio
     ./others
     ./rofi
     ./waybar
