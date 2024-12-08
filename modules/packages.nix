@@ -4,9 +4,6 @@
   pkgs,
   ...
 }:
-let
-  uudeck = pkgs.callPackage ./uudeck/default.nix { };
-in
 {
   environment.systemPackages = with pkgs; [
     vim

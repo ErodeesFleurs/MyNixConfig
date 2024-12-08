@@ -19,7 +19,6 @@
     ./modules/hyprland.nix
     ./modules/desktop.nix
     ./modules/packages.nix
-    ./modules/uudeck/default.nix
   ];
 
   # Bootloader.
