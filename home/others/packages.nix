@@ -25,6 +25,7 @@
     wechat-uos
     hmcl
     osu-lazer-bin
+    telegram-desktop
   ];
 
 }
