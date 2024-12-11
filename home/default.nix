@@ -7,7 +7,6 @@
     ./fastfetch
     ./git
     ./hypr
-    ./localsend
     ./nixvim
     ./obs-studio
     ./others

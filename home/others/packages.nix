@@ -26,6 +26,7 @@
     hmcl
     osu-lazer-bin
     telegram-desktop
+    localsend
   ];
 
 }
