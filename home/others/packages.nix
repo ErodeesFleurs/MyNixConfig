@@ -27,6 +27,8 @@
     osu-lazer-bin
     telegram-desktop
     localsend
+
+    openstarbound
   ];
 
 }
