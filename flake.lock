@@ -601,11 +601,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1734422657,
-        "narHash": "sha256-NehX9ncQUHh3wQl37dNpqfRuQV96Euo2gByoV0oLLzw=",
+        "lastModified": 1734423543,
+        "narHash": "sha256-IjOSs2ZcJ+3k1FZ/BIdtNZIh5gpTPkmpF5NiH50Td4A=",
         "owner": "ErodeesFleurs",
         "repo": "TempNixRep",
-        "rev": "c731d78be386848502a987c23f148fd83b1313d6",
+        "rev": "b7b6298168984b02b284bcaf3f62765a1e328fef",
         "type": "github"
       },
       "original": {
