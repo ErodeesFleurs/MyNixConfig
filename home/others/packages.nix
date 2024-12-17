@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, openstarbound, ... }:
 
 {
   home.packages = with pkgs; [
