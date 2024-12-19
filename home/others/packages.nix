@@ -5,6 +5,7 @@
     hyprpicker
     hyprsunset
     hyprcursor
+    hyprpaper
     hyprshot
     wl-clipboard
     cliphist
