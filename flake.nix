@@ -26,6 +26,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    hyprland-qtutils = {
+      url = "github:hyprwm/hyprland-qtutils";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     openstarbound = {
       url = "github:ErodeesFleurs/TempNixRep";
       inputs.nixpkgs.follows = "nixpkgs";

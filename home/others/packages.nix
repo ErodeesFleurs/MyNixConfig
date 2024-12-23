@@ -29,6 +29,8 @@
     localsend
     skia-aseprite
 
+    hyprland-qtutils
+
     # openstarbound
   ];
 
