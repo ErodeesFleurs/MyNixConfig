@@ -28,9 +28,6 @@
     telegram-desktop
     localsend
     skia-aseprite
-
-    hyprland-qtutils
-
     # openstarbound
   ];
 
