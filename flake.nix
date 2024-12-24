@@ -43,6 +43,7 @@
       home-manager,
       nixvim,
       hyprland,
+      hyprland-qtutils,
       ...
     }:
     {
