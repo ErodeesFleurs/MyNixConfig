@@ -1,4 +1,4 @@
-{ pkgs, inputs, ... }:
+{ pkgs, hyprland-qtutils, ... }:
 
 {
   home.packages = with pkgs; [
@@ -6,7 +6,7 @@
     hyprsunset
     hyprcursor
     hyprshot
-    inputs.hyprland-qtutils.packages.${pkgs.system}.default
+    hyprland-qtutils.packages.${pkgs.system}.default
 
     wl-clipboard
     cliphist
