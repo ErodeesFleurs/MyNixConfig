@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, inputs, ... }:
 
 let
   hyprland-qtutils = inputs.hyprland-qtutils.packages.${pkgs.system}.default;
