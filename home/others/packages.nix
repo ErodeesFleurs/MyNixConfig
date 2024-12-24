@@ -27,7 +27,8 @@
     osu-lazer-bin
     telegram-desktop
     localsend
-    skia-aseprite
+    aseprite
+    blender
     # openstarbound
   ];
 
