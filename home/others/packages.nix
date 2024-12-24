@@ -1,15 +1,13 @@
 { pkgs, inputs, ... }:
 
-let
-  hyprland-qtutils = inputs.hyprland-qtutils.packages.${pkgs.system}.default;
-in
 {
   home.packages = with pkgs; [
     hyprpicker
     hyprsunset
     hyprcursor
     hyprshot
-    hyprland-qtutils
+    inputs.hyprland-qtutils.packages.${pkgs.system}.default
+
     wl-clipboard
     cliphist
 
