@@ -1,4 +1,4 @@
-{ pkgs, openstarbound, ... }:
+{ pkgs, hyprland-qtutils, ... }:
 
 {
   home.packages = with pkgs; [
@@ -6,6 +6,7 @@
     hyprsunset
     hyprcursor
     hyprshot
+    hyprland-qtutils
     wl-clipboard
     cliphist
 
