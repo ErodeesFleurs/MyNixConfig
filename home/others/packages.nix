@@ -31,6 +31,7 @@
     localsend
     aseprite
     blender
+    discord
     # openstarbound
   ];
 
