@@ -32,6 +32,7 @@
     aseprite
     blender
     discord
+    solaar
     # openstarbound
   ];
 
