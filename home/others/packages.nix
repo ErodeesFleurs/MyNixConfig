@@ -33,6 +33,7 @@
     blender
     discord
     solaar
+    pcmanfm
     # openstarbound
   ];
 

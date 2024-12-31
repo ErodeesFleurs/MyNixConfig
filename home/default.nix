@@ -11,7 +11,6 @@
     ./obs-studio
     ./others
     ./rofi
-    ./thunar
     ./waybar
     ./xdg
     ./yazi
