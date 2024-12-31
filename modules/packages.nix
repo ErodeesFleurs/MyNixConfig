@@ -26,13 +26,6 @@
     gamescopeSession.enable = true;
     protontricks.enable = true;
   };
-  programs.thunar = {
-    enable = true;
-    plugins = with pkgs.xfce; [
-      thunar-archive-plugin
-      thunar-volman
-    ];
-  };
 
   #     nixpkgs.config.permittedInsecurePackages = [
   #         "openssl-1.1.1w"
