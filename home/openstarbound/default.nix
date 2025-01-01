@@ -7,11 +7,11 @@
 }:
 
 let
-    osb = pkgs.callPackage ./osb/openstarbound.nix {};
+  osb = pkgs.callPackage ./osb/openstarbound.nix { };
 
+in
 {
   home.packages = with pkgs; [
     osb
   ];
-
 }

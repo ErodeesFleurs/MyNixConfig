@@ -59,7 +59,9 @@ stdenv.mkDerivation rec {
     tar -xvf $TMPDIR/build/client.tar -C $TMPDIR/build
   '';
   installPhase = ''
-    mkdir -p $out/{linux, assets, bin}
+    mkdir -p $out/linux
+    mkdir -p $out/assets
+    mkdir -p $out/bin
 
     cp -r $TMPDIR/build/client_distribution/linux $out
     cp -r $TMPDIR/build/client_distribution/assets $out
@@ -77,7 +79,6 @@ stdenv.mkDerivation rec {
       }
 
     makeWrapper $out/linux/starbound $out/bin/openstarbound \
-      --argv0 "starbound" \
       --add-flags "--bootconfig $out/linux/boot.config" \
       --prefix LD_LIBRARY_PATH : ${lib.makeLibraryPath libraries}
   '';
