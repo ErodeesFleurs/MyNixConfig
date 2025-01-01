@@ -1,4 +1,9 @@
-{ pkgs, hyprland-qtutils, ... }:
+{
+  pkgs,
+  hyprland-qtutils,
+  fleurs-nur,
+  ...
+}:
 
 {
   home.packages = with pkgs; [
@@ -34,7 +39,8 @@
     discord
     solaar
     pcmanfm
-    # openstarbound
+
+    fleurs-nur.openstarbound
   ];
 
 }

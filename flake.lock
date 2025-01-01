@@ -1,25 +1,5 @@
 {
   "nodes": {
-    "FleursNUR": {
-      "inputs": {
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1735697625,
-        "narHash": "sha256-y4czKWYD6O/UIsHSyP0a8NumxuzPVVyuRV8rqDay0FA=",
-        "owner": "ErodeesFleurs",
-        "repo": "FleursNUR",
-        "rev": "7f7d3f7b2fdbf8515bc6302a83e1047f1210be71",
-        "type": "github"
-      },
-      "original": {
-        "owner": "ErodeesFleurs",
-        "repo": "FleursNUR",
-        "type": "github"
-      }
-    },
     "aquamarine": {
       "inputs": {
         "hyprutils": [
@@ -140,6 +120,26 @@
       "original": {
         "owner": "numtide",
         "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "fleurs-nur": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1735700936,
+        "narHash": "sha256-ai0nRjWS69G3FfYBDYPunQfhKsNR1RF4+xJDuM4YGp4=",
+        "owner": "ErodeesFleurs",
+        "repo": "FleursNUR",
+        "rev": "c3c2dd480c1b7b12371cf897c6f5df7a029cd93c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ErodeesFleurs",
+        "repo": "FleursNUR",
         "type": "github"
       }
     },
@@ -687,7 +687,7 @@
     },
     "root": {
       "inputs": {
-        "FleursNUR": "FleursNUR",
+        "fleurs-nur": "fleurs-nur",
         "home-manager": "home-manager",
         "hyprland": "hyprland",
         "hyprland-qtutils": "hyprland-qtutils_2",
