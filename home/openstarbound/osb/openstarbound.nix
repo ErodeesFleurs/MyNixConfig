@@ -63,6 +63,8 @@ stdenv.mkDerivation rec {
     mkdir -p $out/assets
     mkdir -p $out/bin
 
+    rm -rf $TMPDIR/build/client_distribution/linux/sbinit.config
+
     cp -r $TMPDIR/build/client_distribution/linux $out
     cp -r $TMPDIR/build/client_distribution/assets $out
 
