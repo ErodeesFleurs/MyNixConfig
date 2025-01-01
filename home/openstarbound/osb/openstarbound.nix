@@ -68,7 +68,7 @@ stdenv.mkDerivation rec {
     cp -r $TMPDIR/build/client_distribution/linux $out
     cp -r $TMPDIR/build/client_distribution/assets $out
 
-    cat << EOF > $out/bin/sbinit.config
+    cat << EOF > $out/linux/sbinit.config
       {
         "assetDirectories": [
           "\$HOME/.local/share/Steam/steamapps/common/Starbound/assets",
