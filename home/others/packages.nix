@@ -40,7 +40,8 @@
     solaar
     pcmanfm
 
-    fleurs-nur.packages.${pkgs.system}.openstarbound
+    # fleurs-nur.packages.${pkgs.system}.openstarbound
+    fleurs-nur.openstarbound
   ];
 
 }
