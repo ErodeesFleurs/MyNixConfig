@@ -71,13 +71,13 @@ stdenv.mkDerivation rec {
     cat << EOF > $out/linux/sbinit.config
       {
         "assetDirectories": [
-          "~/.local/share/Steam/steamapps/common/Starbound/assets",
-          "~/.local/share/OpenStarbound/mods",
+          "\$HOME/.local/share/Steam/steamapps/common/Starbound/assets",
+          "\$HOME/.local/share/OpenStarbound/mods",
           "$out/assets",
           "$out/linux/assets"
         ],
-        "storageDirectory": "~/.local/share/OpenStarbound/storage",
-        "logDirectory": "~/.local/share/OpenStarbound/logs"
+        "storageDirectory": "\$HOME/.local/share/OpenStarbound/storage",
+        "logDirectory": "\$HOME/.local/share/OpenStarbound/logs"
       }
     EOF
 
