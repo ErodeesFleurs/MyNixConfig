@@ -12,6 +12,7 @@
   libX11,
   libXext,
   libgcc,
+  libopus,
   ...
 }:
 
@@ -24,6 +25,7 @@ let
     libX11
     libXext
     libgcc
+    libopus
   ];
 in
 
@@ -48,6 +50,7 @@ stdenv.mkDerivation rec {
     libX11
     libXext
     libgcc
+    libopus
   ];
 
   unpackPhase = ''
