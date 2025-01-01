@@ -66,7 +66,7 @@ stdenv.mkDerivation rec {
     cp -r $TMPDIR/build/client_distribution/linux $out
     cp -r $TMPDIR/build/client_distribution/assets $out
 
-    cat << EOF > $out/linux/boot.config
+    cat << EOF > $out/bin/sbinit.config
       {
         "assetDirectories": [
           "\$HOME/.local/share/Steam/steamapps/common/Starbound/assets",
@@ -80,7 +80,6 @@ stdenv.mkDerivation rec {
     EOF
 
     makeWrapper $out/linux/starbound $out/bin/openstarbound \
-      --add-flags "--bootconfig $out/linux/boot.config" \
       --prefix LD_LIBRARY_PATH : ${lib.makeLibraryPath libraries}
   '';
 
