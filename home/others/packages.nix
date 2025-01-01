@@ -42,7 +42,7 @@
     pcmanfm
 
     # fleurs-nur.packages.${pkgs.system}.openstarbound
-    inputs.fleurs-nur.packages.x86_64-linux.openstarbound
+    fleurs-nur.packages.x86_64-linux.openstarbound
   ];
 
 }

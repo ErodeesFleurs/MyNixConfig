@@ -9,6 +9,7 @@
     ./hypr
     ./nixvim
     ./obs-studio
+    ./openstarbound
     ./others
     ./rofi
     ./waybar

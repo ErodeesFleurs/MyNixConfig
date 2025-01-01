@@ -130,11 +130,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1735710433,
-        "narHash": "sha256-onh0LVz3q2RGFWdDvyQYrRZ3FyLehP6uU+Se13RoiGs=",
+        "lastModified": 1735712496,
+        "narHash": "sha256-wt3SzfefqTVcmWelviYpuvTAmLBVDBbyJ8oVau6tpac=",
         "owner": "ErodeesFleurs",
         "repo": "FleursNUR",
-        "rev": "6f37eafff4271be2ce079f3a107ea7b48e605aa4",
+        "rev": "23fc106894c27fbde3f8018afbcfd594c563cbb2",
         "type": "github"
       },
       "original": {
