@@ -123,26 +123,6 @@
         "type": "github"
       }
     },
-    "fleurs-nur": {
-      "inputs": {
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1735712496,
-        "narHash": "sha256-wt3SzfefqTVcmWelviYpuvTAmLBVDBbyJ8oVau6tpac=",
-        "owner": "ErodeesFleurs",
-        "repo": "FleursNUR",
-        "rev": "23fc106894c27fbde3f8018afbcfd594c563cbb2",
-        "type": "github"
-      },
-      "original": {
-        "owner": "ErodeesFleurs",
-        "repo": "FleursNUR",
-        "type": "github"
-      }
-    },
     "git-hooks": {
       "inputs": {
         "flake-compat": [
@@ -687,7 +667,6 @@
     },
     "root": {
       "inputs": {
-        "fleurs-nur": "fleurs-nur",
         "home-manager": "home-manager",
         "hyprland": "hyprland",
         "hyprland-qtutils": "hyprland-qtutils_2",
