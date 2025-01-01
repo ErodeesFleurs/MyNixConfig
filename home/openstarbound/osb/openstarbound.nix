@@ -13,6 +13,8 @@
   libXext,
   libgcc,
   libopus,
+  sdl2,
+  alsa-lib,
   ...
 }:
 
@@ -26,6 +28,8 @@ let
     libXext
     libgcc
     libopus
+    sdl2
+    alsa-lib
   ];
 in
 
@@ -51,6 +55,8 @@ stdenv.mkDerivation rec {
     libXext
     libgcc
     libopus
+    sdl2
+    alsa-lib
   ];
 
   unpackPhase = ''
