@@ -31,8 +31,8 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    openstarbound = {
-      url = "github:ErodeesFleurs/TempNixRep";
+    FleursNUR = {
+      url = "github:ErodeesFleurs/FleursNUR";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
