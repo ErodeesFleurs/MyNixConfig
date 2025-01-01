@@ -68,19 +68,6 @@ let
         cp -r $TMPDIR/build/client_distribution/linux $out
         cp -r $TMPDIR/build/client_distribution/assets $out
 
-        cat << EOF > $out/linux/sbinit.config
-          {
-            "assetDirectories": [
-              "$HOME/.local/share/Steam/steamapps/common/Starbound/assets",
-              "$HOME/.local/share/OpenStarbound/mods",
-              "$out/assets",
-              "$out/linux/assets"
-            ],
-            "storageDirectory": "$HOME/.local/share/OpenStarbound/storage",
-            "logDirectory": "$HOME/.local/share/OpenStarbound/logs"
-          }
-        EOF
-
         makeWrapper $out/linux/starbound $out/bin/openstarbound \
           --prefix LD_LIBRARY_PATH : ${lib.makeLibraryPath libraries}
       '';
@@ -101,6 +88,8 @@ writeShellApplication {
   text = ''
     steam_assets_dir="$HOME/.local/share/Steam/steamapps/common/Starbound/assets"
     storage_dir="$HOME/.local/share/OpenStarbound/storage"
+    log_dir="$HOME/.local/share/OpenStarbound/logs"
+    mod_dir="$HOME/.local/share/OpenStarbound/mods"
 
     mkdir -p "$storage_dir"
     tmp_cfg="$(mktemp -t openstarbound.XXXXXXXX)"
@@ -108,13 +97,12 @@ writeShellApplication {
     cat << EOF > "$tmp_cfg"
     {
         "assetDirectories": [
-        "$HOME/.local/share/Steam/steamapps/common/Starbound/assets",
-        "$HOME/.local/share/OpenStarbound/mods",
-        "$out/assets",
-        "$out/linux/assets"
+        "$steam_assets_dir",
+        "$mod_dir",
+        "../assets"
         ],
-        "storageDirectory": "$HOME/.local/share/OpenStarbound/storage",
-        "logDirectory": "$HOME/.local/share/OpenStarbound/logs"
+        "storageDirectory": "$storage_dir",
+        "logDirectory": "$log_dir"
     }
     EOF
 
