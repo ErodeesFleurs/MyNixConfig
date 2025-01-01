@@ -69,13 +69,13 @@ stdenv.mkDerivation rec {
     cat << EOF > $out/linux/boot.config
       {
         "assetDirectories": [
-          "\$HOME/.local/share/Steam/steamapps/common/Starbound/assets",
-          "\$HOME/.local/share/OpenStarbound/mods",
+          "~/.local/share/Steam/steamapps/common/Starbound/assets",
+          "~/.local/share/OpenStarbound/mods",
           "$out/assets",
           "$out/linux/assets"
         ],
-        "storageDirectory": "\$HOME/.local/share/OpenStarbound/storage",
-        "logDirectory": "\$HOME/.local/share/OpenStarbound/logs"
+        "storageDirectory": "~/.local/share/OpenStarbound/storage",
+        "logDirectory": "~/.local/share/OpenStarbound/logs"
       }
 
     makeWrapper $out/linux/starbound $out/bin/openstarbound \
