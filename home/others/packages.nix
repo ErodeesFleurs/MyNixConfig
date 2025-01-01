@@ -1,5 +1,6 @@
 {
   pkgs,
+  inputs,
   hyprland-qtutils,
   fleurs-nur,
   ...
@@ -41,7 +42,7 @@
     pcmanfm
 
     # fleurs-nur.packages.${pkgs.system}.openstarbound
-    fleurs-nur.openstarbound
+    inputs.fleurs-nur.packages.x86_64-linux.openstarbound
   ];
 
 }
