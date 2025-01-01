@@ -15,6 +15,8 @@
   libopus,
   sdl2,
   alsa-lib,
+  libvorbis,
+  libopus,
   ...
 }:
 
@@ -30,6 +32,8 @@ let
     libopus
     sdl2
     alsa-lib
+    libvorbis
+    libopus
   ];
 in
 
@@ -57,6 +61,8 @@ stdenv.mkDerivation rec {
     libopus
     sdl2
     alsa-lib
+    libvorbis
+    libopus
   ];
 
   unpackPhase = ''
