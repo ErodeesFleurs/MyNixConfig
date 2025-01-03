@@ -22,6 +22,7 @@ let
           ++ (with pkgs; [
             pkg-config
             ncurses
+            lua53Packages.lua
           ]);
         profile = "export FHS=1";
         runScript = "fish";
