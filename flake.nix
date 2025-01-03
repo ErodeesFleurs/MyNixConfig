@@ -31,6 +31,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    nix-alien = {
+      url = "github:thiagokokada/nix-alien";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     # fleurs-nur = {
     #   url = "github:ErodeesFleurs/FleursNUR";
     #   inputs.nixpkgs.follows = "nixpkgs";
@@ -44,6 +49,7 @@
       nixvim,
       hyprland,
       hyprland-qtutils,
+      nix-alien,
       # fleurs-nur,
       ...
     }:

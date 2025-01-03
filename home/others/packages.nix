@@ -3,6 +3,7 @@
   inputs,
   hyprland-qtutils,
   fleurs-nur,
+  nix-alien,
   ...
 }:
 
@@ -26,6 +27,7 @@
     ark
     okteta
     lazygit
+    nix-alien
 
     fish
 
