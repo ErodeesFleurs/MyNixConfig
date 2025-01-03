@@ -27,7 +27,7 @@
     ark
     okteta
     lazygit
-    nix-alien
+    nix-alien.packages.${pkgs.system}.nix-alien
 
     fish
 
