@@ -19,12 +19,6 @@ in
 
     colorschemes.tokyonight.enable = true;
 
-    # plugins = {
-    #   web-devicons.enable = true;
-    #   lualine.enable = true;
-    #   nvim-tree.enable = true;
-    #   bufferline.enable = true;
-    # };
     plugins = plugins;
 
     opts = {
