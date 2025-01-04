@@ -6,7 +6,8 @@
 }:
 
 let
-  keymaps = import ./keymap.nix;
+  keymaps = import ./keymaps.nix;
+  plugins = (import ./plugins).plugins;
 in
 
 {
@@ -18,12 +19,13 @@ in
 
     colorschemes.tokyonight.enable = true;
 
-    plugins = {
-      web-devicons.enable = true;
-      lualine.enable = true;
-      nvim-tree.enable = true;
-      bufferline.enable = true;
-    };
+    # plugins = {
+    #   web-devicons.enable = true;
+    #   lualine.enable = true;
+    #   nvim-tree.enable = true;
+    #   bufferline.enable = true;
+    # };
+    plugins = plugins;
 
     opts = {
       # 缩进
