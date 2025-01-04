@@ -1,6 +1,5 @@
 {
   pkgs,
-  inputs,
   ...
 }:
 
@@ -9,6 +8,8 @@
     nil
     nixd
     rustfmt
+
+    github-desktop
   ];
 
 }
