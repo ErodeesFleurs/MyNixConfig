@@ -1,10 +1,3 @@
-{
-  config,
-  pkgs,
-  nixvim,
-  ...
-}:
-
 [
   {
     mode = "n";
