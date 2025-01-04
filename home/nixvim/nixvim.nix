@@ -1,13 +1,14 @@
 {
   config,
   pkgs,
+  lib,
   nixvim,
   ...
 }:
 
 let
   keymaps = import ./keymaps.nix;
-  plugins = (import ./plugins).plugins;
+  plugins = (import ./plugins lib).plugins;
 in
 
 {

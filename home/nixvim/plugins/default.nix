@@ -1,3 +1,5 @@
+lib:
+
 let
   files = [
     ./web-devicons.nix
@@ -5,6 +7,6 @@ let
     ./nvim-tree.nix
     ./bufferline.nix
   ];
-  merged = builtins.foldl' (acc: file: acc // import file) { } files;
+  merged = builtins.foldl' (acc: file: lib.attrsets.recursiveUpdate acc (import file)) { } files;
 in
 merged
