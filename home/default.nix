@@ -6,6 +6,7 @@
     ./easyeffects
     ./fastfetch
     ./git
+    ./helix
     ./hypr
     ./nixvim
     ./obs-studio
