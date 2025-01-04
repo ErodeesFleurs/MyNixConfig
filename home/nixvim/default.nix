@@ -3,5 +3,6 @@
 {
   imports = [
     ./nixvim.nix
+    ./keymap.nix
   ];
 }
