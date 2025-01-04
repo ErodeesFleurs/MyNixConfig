@@ -5,6 +5,10 @@
   ...
 }:
 
+let
+  keymaps = import ./keymap.nix;
+in
+
 {
   imports = [
     nixvim.homeManagerModules.nixvim
@@ -34,5 +38,7 @@
       # 搜索区分大小写
       ic = true;
     };
+
+    keymaps = keymaps;
   };
 }
