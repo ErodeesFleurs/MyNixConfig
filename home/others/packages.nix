@@ -2,7 +2,6 @@
   pkgs,
   inputs,
   hyprland-qtutils,
-  fleurs-nur,
   nix-alien,
   swww,
   fleurs-nur,
