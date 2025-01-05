@@ -6,8 +6,8 @@
     systemd.enable = true;
     settings = {
       env = [
-	"LIBVA_DRIVER_NAME,nvidia"
-	"__GLX_VENDOR_LIBRARY_NAME,nvidia"
+        "LIBVA_DRIVER_NAME,nvidia"
+        "__GLX_VENDOR_LIBRARY_NAME,nvidia"
         "XCURSOR_SIZE,24"
         "HYPRCURSOR_THEME,BreezeX-Dark-hyprcursor"
         "HYPRCURSOR_SIZE,24"
@@ -17,6 +17,7 @@
         "waybar"
         "hyprpaper"
         "hypridle"
+        "swww-daemon"
         "dunst"
         "udiskie"
         "fcitx5 -d"

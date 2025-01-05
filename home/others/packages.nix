@@ -4,6 +4,7 @@
   hyprland-qtutils,
   fleurs-nur,
   nix-alien,
+  swww,
   ...
 }:
 
@@ -14,6 +15,9 @@
     hyprcursor
     hyprshot
     hyprland-qtutils.packages.${pkgs.system}.default
+
+    swww.packages.${pkgs.system}.swww
+    waypaper
 
     wl-clipboard
     cliphist
