@@ -7,7 +7,7 @@
 }:
 
 let
-  osb = pkgs.callPackage ./osb { };
+  # osb = pkgs.callPackage ./osb { };
   osb-fhs = (
     let
       base = pkgs.appimageTools.defaultFhsEnvArgs;

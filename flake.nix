@@ -41,10 +41,10 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    # fleurs-nur = {
-    #   url = "github:ErodeesFleurs/FleursNUR";
-    #   inputs.nixpkgs.follows = "nixpkgs";
-    # };
+    fleurs-nur = {
+      url = "github:ErodeesFleurs/FleursNUR";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -56,7 +56,7 @@
       hyprland-qtutils,
       nix-alien,
       swww,
-      # fleurs-nur,
+      fleurs-nur,
       ...
     }:
     {
