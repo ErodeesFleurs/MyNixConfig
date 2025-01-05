@@ -13,7 +13,7 @@
       ];
 
       wallpaper = [
-        ", ~/.config/hypr/wallpapers/os_tan_wallpaper_1.png"
+        ",~/.config/hypr/wallpapers/os_tan_wallpaper_1.png"
       ];
     };
   };
