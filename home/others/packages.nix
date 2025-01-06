@@ -46,7 +46,6 @@
     discord
     solaar
     pcmanfm
-    fleurs-nur.packages.${pkgs.system}.xmcl
   ];
 
 }
