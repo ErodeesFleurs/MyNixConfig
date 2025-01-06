@@ -1,6 +1,5 @@
 {
   pkgs,
-  inputs,
   hyprland-qtutils,
   nix-alien,
   swww,
@@ -32,6 +31,8 @@
     okteta
     lazygit
     nix-alien.packages.${pkgs.system}.nix-alien
+    okular
+    kchmviewer
 
     fish
 
