@@ -19,6 +19,7 @@
     ./modules/hyprland.nix
     ./modules/desktop.nix
     ./modules/packages.nix
+    ./modules/vm.nix
   ];
 
   # Bootloader.
