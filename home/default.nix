@@ -7,6 +7,7 @@
     ./fastfetch
     ./git
     ./helix
+    ./htop
     ./hypr
     ./nixvim
     ./obs-studio
