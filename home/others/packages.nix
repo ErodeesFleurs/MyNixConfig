@@ -41,6 +41,7 @@
     hmcl
     osu-lazer-bin
     telegram-desktop
+    gui-for-clash
     localsend
     aseprite
     blender

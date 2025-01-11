@@ -39,7 +39,6 @@
     rar
     onlyoffice-bin
     go-musicfox
-    clash-verge-rev
     aria2
     #     wechat-uos
     #     wpsoffice
