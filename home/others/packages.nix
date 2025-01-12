@@ -41,7 +41,6 @@
     hmcl
     osu-lazer-bin
     telegram-desktop
-    v2raya
     localsend
     aseprite
     blender

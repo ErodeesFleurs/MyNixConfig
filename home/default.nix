@@ -14,6 +14,7 @@
     ./openstarbound
     ./others
     ./rofi
+    ./v2ray
     ./waybar
     ./xdg
     ./yazi
