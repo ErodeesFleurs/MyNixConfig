@@ -13,13 +13,7 @@
   imports = [
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
-    ./modules/nvidia.nix
-    ./modules/i18n.nix
-    ./modules/fonts.nix
-    ./modules/hyprland.nix
-    ./modules/desktop.nix
-    ./modules/packages.nix
-    ./modules/vm.nix
+    ./modules
   ];
 
   # Bootloader.
