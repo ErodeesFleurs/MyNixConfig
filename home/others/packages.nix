@@ -41,7 +41,7 @@
     hmcl
     osu-lazer-bin
     telegram-desktop
-    gui-for-clash
+    v2raya
     localsend
     aseprite
     blender
