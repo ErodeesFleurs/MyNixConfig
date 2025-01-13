@@ -6,11 +6,11 @@
 }:
 {
   environment.systemPackages = with pkgs; [
-    vim
-    #         microsoft-edge
     lshw
     nixfmt-rfc-style
     docker
+    hyprpolkitagent
+    lxqt.lxqt-policykit
   ];
 
   virtualisation.docker.enable = true;

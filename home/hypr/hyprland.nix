@@ -1,9 +1,16 @@
-{ config, pkgs, ... }:
+{
+  config,
+  pkgs,
+  hyprland,
+  ...
+}:
 
 {
   wayland.windowManager.hyprland = {
     enable = true;
     systemd.enable = true;
+    xwayland.enable = true;
+    package = hyprland.packages."${pkgs.system}".hyprland;
     settings = {
       env = [
         "LIBVA_DRIVER_NAME,nvidia"

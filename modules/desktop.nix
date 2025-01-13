@@ -11,7 +11,10 @@
   hardware.bluetooth.enable = true;
   services.blueman.enable = true;
 
-  xdg.portal = {
-    enable = true;
+  xdg = {
+    portal = {
+      enable = true;
+      xdgOpenUsePortal = true;
+    };
   };
 }
