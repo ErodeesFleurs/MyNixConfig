@@ -1,16 +1,15 @@
 {
   imports = [
     ./packages.nix
-    ./bluetooth
     ./boot
     ./gpu
     ./fonts
     ./games
     ./hyprland
     ./i18n
+    ./netdrive
     ./network
     ./system
-    ./v2ray
     ./variables
     ./vmware
     ./xdg

@@ -1,7 +1,9 @@
-{ pkgs, ... }:
+{ ... }:
 
 {
   imports = [
-    ./network.nix
+    ./bluetooth.nix
+    ./v2ray.nix
+    ./wlan.nix
   ];
 }
