@@ -8,9 +8,9 @@
         layout = "cn";
         variant = "";
       };
-      libinput = {
-        enable = true;
-      };
+    };
+    libinput = {
+      enable = true;
     };
   };
 }
