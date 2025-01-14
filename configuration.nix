@@ -16,18 +16,6 @@
     ./modules
   ];
 
-  # Bootloader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
-  boot.kernelPackages = pkgs.linuxPackages_latest;
-
-  # Set your time zone.
-  time.timeZone = "Asia/Shanghai";
-
-  # Enable the X11 windowing system.
-  # You can disable this if you're only using the Wayland session.
-  services.xserver.enable = true;
-
   # Enable the KDE Plasma Desktop Environment.
   services.displayManager.sddm = {
     enable = true;
@@ -47,12 +35,6 @@
 
   #   services.desktopManager.plasma6.enable = true;
   #   services.displayManager.autoLogin.enable = false;
-
-  # Configure keymap in X11
-  services.xserver = {
-    xkb.layout = "cn";
-    xkb.variant = "";
-  };
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
@@ -83,9 +65,6 @@
     };
   };
 
-  # Enable touchpad support (enabled default in most desktopManager).
-  # services.xserver.libinput.enable = true;
-
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.fleurs = {
     isNormalUser = true;
@@ -100,16 +79,6 @@
     ];
   };
 
-  nix.settings.experimental-features = [
-    "flakes"
-    "nix-command"
-  ];
-
-  nix.optimise.automatic = true;
-
-  # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
-
   security.polkit.enable = true;
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -119,13 +88,4 @@
   #   enable = true;
   #   enableSSHSupport = true;
   # };
-
-  # This value determines the NixOS release from which the default
-  # settings for stateful data, like file locations and database versions
-  # on your system were taken. It‘s perfectly fine and recommended to leave
-  # this value at the release version of the first install of this system.
-  # Before changing this value read the documentation for this option
-  # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
-  system.stateVersion = "unstable"; # Did you read the comment?
-
 }
