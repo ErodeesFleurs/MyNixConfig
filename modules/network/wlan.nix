@@ -2,7 +2,7 @@
 
 {
   networking = {
-    hostName = "Spectre";
+    hostName = "spectre";
     networkmanager = {
       enable = true;
     };

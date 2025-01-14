@@ -62,7 +62,7 @@
     {
       nixosConfigurations = {
         # 这里的 my-nixos 替换成你的主机名称
-        nixos = nixpkgs.lib.nixosSystem {
+        spectre = nixpkgs.lib.nixosSystem {
           system = "x86_64-linux";
           modules = [
             home-manager.nixosModules.home-manager
