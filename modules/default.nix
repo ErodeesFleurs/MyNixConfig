@@ -1,15 +1,15 @@
 {
   imports = [
-    ./fonts.nix
-    ./nvidia.nix
     ./packages.nix
-    ./vmware.nix
     ./bluetooth
+    ./gpu
+    ./fonts
     ./hyprland
     ./i18n
     ./network
     ./v2ray
     ./variables
+    ./vmware
     ./xdg
   ];
 }
