@@ -4,7 +4,7 @@
   programs = {
     steam = {
       enable = true;
-      remotePla = {
+      remotePlay = {
         openFirewall = true;
       }; # 开放远程游戏同享端口
 
