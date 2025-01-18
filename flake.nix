@@ -71,6 +71,7 @@
         spectre = nixpkgs.lib.nixosSystem {
           system = "x86_64-linux";
           modules = [
+            { nixpkgs.overlays = [ inputs.hyprpanel.overlay ]; }
             home-manager.nixosModules.home-manager
             hyprland.nixosModules.default
             {
