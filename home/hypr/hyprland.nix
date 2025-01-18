@@ -31,7 +31,7 @@
         "wl-paste --watch cliphist store"
         # "systemctl --user status hyprpolkitagent.service"
         "lxqt-policykit-agent"
-        "onedrivegui"
+        # "onedrivegui"
       ];
       "$mainMod" = "SUPER";
       "$terminal" = "alacritty";

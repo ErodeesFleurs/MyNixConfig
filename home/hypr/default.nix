@@ -20,9 +20,10 @@
   };
 
   imports = [
-    ./hyprland.nix
-    ./hyprpaper.nix
-    ./hyprlock.nix
     ./hypridle.nix
+    ./hyprland.nix
+    ./hyprlock.nix
+    ./hyprpanel.nix
+    ./hyprpaper.nix
   ];
 }

@@ -31,6 +31,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    hyprpanel = {
+      url = "github:jas-singhfsu/hyprpanel";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     nix-alien = {
       url = "github:thiagokokada/nix-alien";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -54,6 +59,7 @@
       nixvim,
       hyprland,
       hyprland-qtutils,
+      hyprpanel,
       nix-alien,
       swww,
       fleurs-nur,
