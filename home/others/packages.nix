@@ -1,6 +1,5 @@
 {
   pkgs,
-  hyprland-qtutils,
   nix-alien,
   swww,
   fleurs-nur,
@@ -13,8 +12,6 @@
     hyprsunset
     hyprcursor
     hyprshot
-    hyprland-qtutils.packages.${pkgs.system}.default
-
     swww.packages.${pkgs.system}.swww
     waypaper
 
@@ -42,7 +39,7 @@
     osu-lazer-bin
     telegram-desktop
     localsend
-    aseprite
+    # aseprite
     blender
     discord
     solaar

@@ -26,11 +26,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    hyprland-qtutils = {
-      url = "github:hyprwm/hyprland-qtutils";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
     nix-alien = {
       url = "github:thiagokokada/nix-alien";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -53,7 +48,6 @@
       home-manager,
       nixvim,
       hyprland,
-      hyprland-qtutils,
       nix-alien,
       swww,
       fleurs-nur,
