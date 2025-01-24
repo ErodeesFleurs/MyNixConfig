@@ -39,7 +39,7 @@
     osu-lazer-bin
     telegram-desktop
     localsend
-    # aseprite
+    aseprite
     blender
     discord
     solaar
