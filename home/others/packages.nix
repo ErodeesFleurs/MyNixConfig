@@ -35,6 +35,8 @@
 
     qq
     wechat-uos
+    feishu
+
     hmcl
     osu-lazer-bin
     telegram-desktop
