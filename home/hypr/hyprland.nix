@@ -20,7 +20,7 @@
         "HYPRCURSOR_SIZE,24"
         "HYPRSHOT_DIR,$HOME/Pictures/Screenshots"
       ];
-      monitor = [ ",highrr,auto,1" ];
+      monitor = [ ",preferred,auto,1" ];
       exec-once = [
         "waybar"
         "hyprpaper"
