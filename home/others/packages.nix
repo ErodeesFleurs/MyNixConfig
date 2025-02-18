@@ -1,7 +1,6 @@
 {
   pkgs,
   nix-alien,
-  swww,
   fleurs-nur,
   ...
 }:
@@ -12,8 +11,6 @@
     hyprsunset
     hyprcursor
     hyprshot
-    swww.packages.${pkgs.system}.swww
-    waypaper
 
     wl-clipboard
     cliphist
@@ -25,7 +22,6 @@
     unzip
     zip
     ark
-    okteta
     lazygit
     nix-alien.packages.${pkgs.system}.nix-alien
     okular

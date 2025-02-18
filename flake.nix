@@ -31,11 +31,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    swww = {
-      url = "github:LGFae/swww";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
     fleurs-nur = {
       url = "github:ErodeesFleurs/FleursNUR";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -49,7 +44,6 @@
       nixvim,
       hyprland,
       nix-alien,
-      swww,
       fleurs-nur,
       ...
     }:
