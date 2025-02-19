@@ -14,6 +14,7 @@
     ./openstarbound
     ./others
     ./rofi
+    ./stylix
     ./waybar
     ./xdg
     ./yazi
