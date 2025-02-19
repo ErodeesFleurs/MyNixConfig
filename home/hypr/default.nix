@@ -2,7 +2,7 @@
 
 {
   home.file.".config/hypr/wallpapers" = {
-    source = ./wallpapers;
+    source = ../../media/wallpapers;
     recursive = true;
     executable = true;
   };
