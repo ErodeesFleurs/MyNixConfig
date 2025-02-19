@@ -3,6 +3,6 @@
 {
   stylix = {
     enable = true;
-    image = "~/.config/hypr/wallpapers/maid.png";
+    image = ./wallpapers/maid.png;
   };
 }
