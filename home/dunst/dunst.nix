@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ ... }:
 
 {
   services.dunst = {
@@ -26,7 +26,7 @@
         separator_height = 2;
         frame_width = 2;
         frame_color = "#313244";
-        separator_color = "frame";
+        # separator_color = "frame";
         corner_radius = 8;
         transparency = 0;
         gap_size = 8;
@@ -36,7 +36,7 @@
         history_length = 20;
         show_age_threshold = 60;
         markup = "full";
-        font = "CaskaydiaMono 10";
+        # font = "CaskaydiaMono 10";
         format = "<b>%s</b>\\n%b";
         word_wrap = "yes";
         sort = "yes";
@@ -61,22 +61,22 @@
       };
 
       urgency_low = {
-        background = "#1e1e2e";
-        foreground = "#cdd6f4";
-        highlight = "#cba6f7";
+      #   background = "#1e1e2e";
+      #   foreground = "#cdd6f4";
+      #   highlight = "#cba6f7";
         timeout = 4;
       };
 
       urgency_normal = {
-        background = "#1e1e2e";
-        foreground = "#cdd6f4";
+      #   background = "#1e1e2e";
+      #   foreground = "#cdd6f4";
         highlight = "#cba6f7";
         timeout = 6;
       };
 
       urgency_critical = {
-        background = "#1e1e2e";
-        foreground = "#cdd6f4";
+        # background = "#1e1e2e";
+        # foreground = "#cdd6f4";
         highlight = "#cba6f7";
         timeout = 0;
       };

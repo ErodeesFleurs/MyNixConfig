@@ -1,9 +1,4 @@
-{
-  config,
-  pkgs,
-  hyprland,
-  ...
-}:
+{ pkgs, hyprland, ... }:
 
 {
   wayland.windowManager.hyprland = {
@@ -46,8 +41,8 @@
 
         border_size = 2;
 
-        "col.active_border" = "rgba(cba6f7ff)";
-        "col.inactive_border" = "rgba(313244ff)";
+        # "col.active_border" = "rgba(cba6f7ff)";
+        # "col.inactive_border" = "rgba(313244ff)";
 
         resize_on_border = false;
 

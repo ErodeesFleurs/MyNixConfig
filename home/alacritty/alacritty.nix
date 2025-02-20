@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ ... }:
 
 {
   # alacritty - 一个跨平台终端，带 GPU 加速功能
@@ -9,10 +9,10 @@
       env.TERM = "xterm-256color";
 
       font = {
-        normal = {
-          family = "CaskaydiaMonoNerdFont";
-          style = "Regular";
-        };
+        # normal = {
+        #   family = "CaskaydiaMonoNerdFont";
+        #   style = "Regular";
+        # };
 
         bold = {
           family = "CaskaydiaMonoNerdFont";
@@ -38,21 +38,21 @@
           }
         ];
 
-        bright = {
-          black = "#585B70";
-          blue = "#89B4FA";
-          cyan = "#94E2D5";
-          green = "#A6E3A1";
-          magenta = "#F5C2E7";
-          red = "#F38BA8";
-          white = "#A6ADC8";
-          yellow = "#F9E2AF";
-        };
+        # bright = {
+        #   black = "#585B70";
+        #   blue = "#89B4FA";
+        #   cyan = "#94E2D5";
+        #   green = "#A6E3A1";
+        #   magenta = "#F5C2E7";
+        #   red = "#F38BA8";
+        #   white = "#A6ADC8";
+        #   yellow = "#F9E2AF";
+        # };
 
-        cursor = {
-          cursor = "#F5E0DC";
-          text = "#1E1E2E";
-        };
+        # cursor = {
+        #   cursor = "#F5E0DC";
+        #   text = "#1E1E2E";
+        # };
 
         dim = {
           black = "#45475A";
@@ -77,23 +77,23 @@
           };
         };
 
-        normal = {
-          black = "#45475A";
-          blue = "#89B4FA";
-          cyan = "#94E2D5";
-          green = "#A6E3A1";
-          magenta = "#F5C2E7";
-          red = "#F38BA8";
-          white = "#BAC2DE";
-          yellow = "#F9E2AF";
-        };
+        # normal = {
+        #   black = "#45475A";
+        #   blue = "#89B4FA";
+        #   cyan = "#94E2D5";
+        #   green = "#A6E3A1";
+        #   magenta = "#F5C2E7";
+        #   red = "#F38BA8";
+        #   white = "#BAC2DE";
+        #   yellow = "#F9E2AF";
+        # };
 
-        primary = {
-          background = "#1E1E2E";
-          bright_foreground = "#CDD6F4";
-          dim_foreground = "#CDD6F4";
-          foreground = "#CDD6F4";
-        };
+        # primary = {
+        #   background = "#1E1E2E";
+        #   bright_foreground = "#CDD6F4";
+        #   dim_foreground = "#CDD6F4";
+        #   foreground = "#CDD6F4";
+        # };
 
         search = {
           focused_match = {
@@ -107,10 +107,10 @@
           };
 
         };
-        selection = {
-          background = "#F5E0DC";
-          text = "#1E1E2E";
-        };
+        # selection = {
+        #   background = "#F5E0DC";
+        #   text = "#1E1E2E";
+        # };
 
         vi_mode_cursor = {
           cursor = "#B4BEFE";
@@ -120,7 +120,7 @@
 
       scrolling.multiplier = 5;
       selection.save_to_clipboard = true;
-      window.opacity = 0.8;
+      # window.opacity = 0.8;
     };
   };
 }

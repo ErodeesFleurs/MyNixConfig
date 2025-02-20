@@ -9,6 +9,7 @@
     ./i18n
     ./netdrive
     ./network
+    ./stylix
     ./system
     ./variables
     ./vmware
