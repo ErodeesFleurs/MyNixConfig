@@ -6,6 +6,12 @@
 }:
 
 {
+  nixpkgs = {
+    config = {
+      allowUnfree = true;
+    };
+  };
+
   home.packages = with pkgs; [
     hyprpicker
     hyprsunset

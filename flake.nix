@@ -55,11 +55,13 @@
             stylix.nixosModules.stylix
             hyprland.nixosModules.default
             {
-              home-manager.useGlobalPkgs = true;
+              home-manager.useGlobalPkgs = false;
               home-manager.useUserPackages = true;
 
               home-manager.users.fleurs = import ./home.nix;
               home-manager.extraSpecialArgs = inputs;
+
+              home-manager.backupFileExtension = "hm-backup";
             }
             ./configuration.nix
           ];
