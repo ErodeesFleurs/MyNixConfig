@@ -2,6 +2,7 @@
   pkgs,
   nix-alien,
   fleurs-nur,
+  fenix,
   ...
 }:
 
@@ -10,6 +11,9 @@
     config = {
       allowUnfree = true;
     };
+    overlays = [
+      fenix.overlays.default
+    ];
   };
 
   home.packages = with pkgs; [

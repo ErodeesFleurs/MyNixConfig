@@ -29,6 +29,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    fenix = {
+      url = "github:nix-community/fenix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     fleurs-nur = {
       url = "github:ErodeesFleurs/FleursNUR";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -43,6 +48,7 @@
       hyprland,
       nix-alien,
       stylix,
+      fenix,
       fleurs-nur,
       ...
     }:

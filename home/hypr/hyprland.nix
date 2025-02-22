@@ -11,7 +11,7 @@
         "LIBVA_DRIVER_NAME,nvidia"
         "__GLX_VENDOR_LIBRARY_NAME,nvidia"
         "XCURSOR_SIZE,24"
-        "HYPRCURSOR_THEME,BreezeX-Dark-hyprcursor"
+        "HYPRCURSOR_THEME,"
         "HYPRCURSOR_SIZE,24"
         "HYPRSHOT_DIR,$HOME/Pictures/Screenshots"
       ];

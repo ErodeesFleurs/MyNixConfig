@@ -19,6 +19,7 @@
       nerd-fonts.caskaydia-cove
       nerd-fonts.caskaydia-mono
       nerd-fonts.symbols-only
+      nerd-fonts.dejavu-sans-mono
       # (nerdfonts.override { fonts = [ "CascadiaCode" "CascadiaMono" "NerdFontsSymbolsOnly" ]; })
     ];
     # 设置 fontconfig 防止出现乱码
