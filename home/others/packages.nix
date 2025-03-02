@@ -34,7 +34,7 @@
     kdePackages.ark
     lazygit
     nix-alien.packages.${pkgs.system}.nix-alien
-    okular
+    kdePackages.okular
     kchmviewer
 
     fish

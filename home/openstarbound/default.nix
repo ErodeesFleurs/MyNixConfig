@@ -34,6 +34,7 @@ in
 {
   home.packages = with pkgs; [
     # osb
+    fleurs-nur.packages.${pkgs.system}.openstarbound
     osb-fhs
   ];
 }
