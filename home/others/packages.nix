@@ -1,8 +1,8 @@
 {
   pkgs,
   nix-alien,
-  fleurs-nur,
   fenix,
+  nur,
   ...
 }:
 
@@ -42,6 +42,7 @@
     qq
     wechat-uos
     feishu
+    nur.repos.xddxdd.dingtalk
 
     hmcl
     osu-lazer-bin

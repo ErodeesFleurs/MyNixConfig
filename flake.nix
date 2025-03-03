@@ -34,6 +34,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    nur = {
+      url = "github:nix-community/NUR";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     fleurs-nur = {
       url = "github:ErodeesFleurs/FleursNUR";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -49,6 +54,7 @@
       nix-alien,
       stylix,
       fenix,
+      nur,
       fleurs-nur,
       ...
     }:
