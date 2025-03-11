@@ -42,16 +42,16 @@
 
     qq
     wechat-uos
+    discord
     feishu
     fleurs-nur.packages.${pkgs.system}.dingtalk
+    wpsoffice
 
     hmcl
     osu-lazer-bin
     telegram-desktop
-    localsend
     aseprite
     blender
-    discord
     solaar
     pcmanfm
   ];

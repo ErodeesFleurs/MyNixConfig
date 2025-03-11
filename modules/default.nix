@@ -7,6 +7,7 @@
     ./games
     ./hyprland
     ./i18n
+    ./localsend
     ./netdrive
     ./network
     ./stylix
