@@ -54,6 +54,7 @@
     blender
     solaar
     pcmanfm
+    filezilla
   ];
 
 }
