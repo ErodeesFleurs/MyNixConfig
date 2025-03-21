@@ -1,7 +1,6 @@
 {
   pkgs,
   lib,
-  nix-alien,
   fleurs-nur,
   fenix,
   ...
@@ -34,9 +33,8 @@
     zip
     kdePackages.ark
     lazygit
-    nix-alien.packages.${pkgs.system}.nix-alien
-    kdePackages.okular
-    kchmviewer
+    kdePackages.
+    kchmviewerokular
 
     fish
 
@@ -52,7 +50,6 @@
     telegram-desktop
     aseprite
     blender
-    solaar
     pcmanfm
     filezilla
   ];
