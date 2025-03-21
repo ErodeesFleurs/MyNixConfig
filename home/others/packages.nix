@@ -33,8 +33,8 @@
     zip
     kdePackages.ark
     lazygit
-    kdePackages.
-    kchmviewerokular
+    kdePackages.okular
+    kchmviewer
 
     fish
 
