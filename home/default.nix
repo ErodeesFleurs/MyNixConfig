@@ -18,6 +18,5 @@
     ./waybar
     ./xdg
     ./yazi
-    ./zed
   ];
 }

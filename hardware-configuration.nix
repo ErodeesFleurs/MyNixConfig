@@ -18,7 +18,7 @@
       fsType = "ext4";
     };
   
-  fileSystems."/mnt/Next" =
+  fileSystems."/media/next" =
     { device = "/dev/disk/by-uuid/69b9f3d3-55a4-443a-aa47-49ecc235f228";
       fsType = "ext4";
     };
