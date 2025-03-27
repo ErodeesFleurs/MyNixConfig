@@ -11,12 +11,16 @@
       EDITOR = "nvim";
       # 设置默认的文件管理器
       FILE_MANAGER = "pcmanfm";
+       
+      NIXOS_OZONE_WL = "1";
+      
+      WLR_NO_HARDWARE_CURSORS = "1";
 
-      GOOGLE_DEFAULT_CLIENT_SECRET = "587463108848-dfr72b1mct9njf7jr4s674gbu3dan4cq.apps.googleusercontent.com";
+      XDG_CURRENT_DESKTOP = "Hyprland";
+      XDG_SESSION_TYPE = "wayland";
+      XDG_SESSION_DESKTOP = "Hyprland";
 
-      GOOGLE_DEFAULT_CLIENT_ID = "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";
-
-      GOOGLE_API_KEY = "AIzaSyDhsPirOMY87c093UQGixJbDp2P89Ol9oA";
+      SDL_VIDEODRIVER = "wayland";
     };
   }
 }

@@ -17,6 +17,7 @@
       ];
       monitor = [ ",preferred,auto,1" ];
       exec-once = [
+        "systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
         "waybar"
         "hyprpaper"
         "hypridle"
