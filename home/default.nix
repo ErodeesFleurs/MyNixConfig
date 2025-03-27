@@ -2,6 +2,7 @@
   imports = [
     ./alacritty
     ./chromium
+    ./direnv
     ./dunst
     ./easyeffects
     ./fastfetch
