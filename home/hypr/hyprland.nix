@@ -5,7 +5,8 @@
     enable = true;
     systemd.enable = true;
     xwayland.enable = true;
-    package = hyprland.packages."${pkgs.system}".hyprland;
+    package = null;
+    portalPackage = null;
     settings = {
       env = [
         "LIBVA_DRIVER_NAME,nvidia"

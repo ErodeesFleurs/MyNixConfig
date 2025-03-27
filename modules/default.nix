@@ -1,7 +1,6 @@
 {
   imports = [
     ./appimage
-    ./packages.nix
     ./boot
     ./gpu
     ./fonts
@@ -13,9 +12,11 @@
     ./network
     ./stylix
     ./system
+    ./systemd
     ./variables
     ./vmware
     ./xdg
     ./xserver
+    ./packages.nix
   ];
 }
