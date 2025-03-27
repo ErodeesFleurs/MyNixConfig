@@ -8,6 +8,9 @@
         "flakes"
         "nix-command"
       ];
+      trusted-users = [
+        "fleurs"
+      ];
     };
     optimise = {
       automatic = true;
