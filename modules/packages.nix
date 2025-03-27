@@ -6,6 +6,7 @@
     docker
     hyprpolkitagent
     lxqt.lxqt-policykit
+    xdg-utils
   ];
 
   virtualisation.docker.enable = true;
