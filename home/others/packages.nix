@@ -42,16 +42,18 @@
     wechat-uos
     discord
     feishu
+    telegram-desktop
     fleurs-nur.packages.${pkgs.system}.dingtalk
-    wpsoffice
-
+    
     hmcl
     osu-lazer-bin
-    telegram-desktop
+
+    wpsoffice
     aseprite
     blender
     pcmanfm
     filezilla
+    openvpn
   ];
 
 }
