@@ -8,19 +8,29 @@
       noto-fonts
       noto-fonts-cjk-sans
       noto-fonts-emoji
+
       font-awesome
+      
       source-code-pro
       source-han-sans
       source-han-serif
       source-han-mono
+      
       sarasa-gothic
+      
+      corefonts
+      
+      vistafonts
+      vistafonts-cht
+      vistafonts-chs
+
       wqy_microhei
       wqy_zenhei
+
       nerd-fonts.caskaydia-cove
       nerd-fonts.caskaydia-mono
       nerd-fonts.symbols-only
       nerd-fonts.dejavu-sans-mono
-      # (nerdfonts.override { fonts = [ "CascadiaCode" "CascadiaMono" "NerdFontsSymbolsOnly" ]; })
     ];
     # 设置 fontconfig 防止出现乱码
     fontconfig = {
