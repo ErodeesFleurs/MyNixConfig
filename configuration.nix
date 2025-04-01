@@ -72,11 +72,9 @@
     extraGroups = [
       "networkmanager"
       "wheel"
+      "docker"
     ];
-    packages = with pkgs; [
-      # kdePackages.kate
-      #  thunderbird
-    ];
+    packages = with pkgs; [];
   };
 
   security.polkit.enable = true;
