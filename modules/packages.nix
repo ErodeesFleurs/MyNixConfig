@@ -6,6 +6,7 @@
     hyprpolkitagent
     lxqt.lxqt-policykit
     xdg-utils
+    steamcmd
   ];
 
   programs.dconf.enable = true;

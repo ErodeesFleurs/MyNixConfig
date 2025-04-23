@@ -44,7 +44,7 @@
     feishu
     telegram-desktop
     fleurs-nur.packages.${pkgs.system}.dingtalk
-    
+
     hmcl
     osu-lazer-bin
 

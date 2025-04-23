@@ -17,6 +17,7 @@
     ./rofi
     ./stylix
     ./waybar
+    ./winapp
     ./xdg
     ./yazi
   ];
