@@ -73,6 +73,8 @@
       "networkmanager"
       "wheel"
       "docker"
+      "libvirt"
+      "kvm"
     ];
     packages = with pkgs; [];
   };
