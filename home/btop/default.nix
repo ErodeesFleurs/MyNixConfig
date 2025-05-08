@@ -2,6 +2,6 @@
 
 {
   imports = [
-    ./htop.nix
+    ./btop.nix
   ];
 }

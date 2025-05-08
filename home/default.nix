@@ -1,6 +1,7 @@
 {
   imports = [
     ./alacritty
+    ./btop
     ./chromium
     ./direnv
     ./dunst
@@ -8,7 +9,6 @@
     ./fastfetch
     ./git
     ./helix
-    ./htop
     ./hypr
     ./nixvim
     ./obs-studio
