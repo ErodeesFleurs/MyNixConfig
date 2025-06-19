@@ -15,6 +15,18 @@
         "HYPRCURSOR_THEME,"
         "HYPRCURSOR_SIZE,24"
         "HYPRSHOT_DIR,$HOME/Pictures/Screenshots"
+
+        "BROWSER,chromium"
+        "TERMINAL,alacritty"
+        "EDITOR,nvim"
+        "FILE_MANAGER,pcmanfm"
+
+        "WLR_NO_HARDWARE_CURSORS,1"
+        "NIXOS_OZONE_WL,1"
+        # "XDG_CURRENT_DESKTOP,Hyprland"
+        # "XDG_SESSION_TYPE,wayland"
+        # "XDG_SESSION_DESKTOP,Hyprland"
+        # "SDL_VIDEODRIVER,wayland"
       ];
       monitor = [ ",preferred,auto,1" ];
       exec-once = [
@@ -29,7 +41,6 @@
         "wl-paste --watch cliphist store"
         # "systemctl --user status hyprpolkitagent.service"
         "lxqt-policykit-agent"
-        # "onedrivegui"
       ];
       "$mainMod" = "SUPER";
       "$terminal" = "alacritty";

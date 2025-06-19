@@ -9,6 +9,7 @@
       waylandFrontend = true;
       addons = with pkgs; [
         fcitx5-gtk
+        kdePackages.fcitx5-qt
         fcitx5-chinese-addons
         fcitx5-material-color
         fcitx5-pinyin-moegirl
