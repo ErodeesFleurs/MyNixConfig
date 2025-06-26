@@ -2,7 +2,6 @@
   pkgs,
   lib,
   fleurs-nur,
-  fenix,
   ...
 }:
 
@@ -11,9 +10,6 @@
     config = {
       allowUnfree = true;
     };
-    overlays = [
-      fenix.overlays.default
-    ];
   };
 
   home.packages = with pkgs; [
@@ -22,13 +18,14 @@
     hyprcursor
     hyprshot
 
+    ashell
+
     wl-clipboard
     cliphist
 
     udiskie
     libnotify
     brightnessctl
-    tray-tui
 
     unzip
     zip
