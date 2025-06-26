@@ -1,6 +1,7 @@
 {
   imports = [
     ./alacritty
+    ./ashell
     ./btop
     ./chromium
     ./direnv

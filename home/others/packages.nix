@@ -18,8 +18,6 @@
     hyprcursor
     hyprshot
 
-    ashell
-
     wl-clipboard
     cliphist
 
