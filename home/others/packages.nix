@@ -28,6 +28,7 @@
     udiskie
     libnotify
     brightnessctl
+    tray-tui
 
     unzip
     zip
