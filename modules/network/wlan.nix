@@ -6,6 +6,12 @@
     networkmanager = {
       enable = true;
     };
+    firewall = {
+      allowedTCPPorts = [
+        5900
+        5901
+      ];
+    };
   };
 
   services = {

@@ -25,7 +25,9 @@
       ];
       kernelModules = [ ];
     };
-    kernelModules = [ "kvm-amd" ];
+    kernelModules = [
+      "kvm-amd"
+    ];
     extraModulePackages = [ ];
   };
 
