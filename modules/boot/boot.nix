@@ -11,7 +11,11 @@
         canTouchEfiVariables = true;
       };
     };
-    # kernelPackages = pkgs.linuxPackages_6_12;
     kernelPackages = pkgs.linuxPackages_latest;
+    kernelParams = [
+      "amd_iommu=on"
+      "iommu=pt"
+      "vfio-pci.ids=10de:2520"
+    ]
   };
 }

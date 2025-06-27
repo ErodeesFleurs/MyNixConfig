@@ -18,7 +18,11 @@
   virtualisation = {
     libvirtd = {
       enable = true;
+      onBoot = "ignore";
+      onShutdown = "shutdown";
       qemu = { 
+        ovmf.enable = true;
+        runAsRoot = true;
         vhostUserPackages = with pkgs; 
           [ virtiofsd ];
       };
