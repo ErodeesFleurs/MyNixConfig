@@ -45,7 +45,7 @@
     hmcl
     osu-lazer-bin
 
-    wpsoffice
+    # wpsoffice
     aseprite
     blender
     pcmanfm

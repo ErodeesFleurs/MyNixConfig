@@ -17,5 +17,8 @@
       "iommu=pt"
       # "vfio-pci.ids=10de:2520,10de:228e"
     ];
+    # extraModulePackages = with pkgs;[
+    #   linuxKernel.packages.linux_6_15.kvmfr
+    # ];
   };
 }
