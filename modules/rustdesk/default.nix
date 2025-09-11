@@ -1,7 +1,0 @@
-{ ... }:
-
-{
-  imports = [
-    ./rustdesk.nix
-  ];
-}
