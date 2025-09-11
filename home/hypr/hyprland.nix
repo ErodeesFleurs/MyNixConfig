@@ -144,9 +144,9 @@
         };
       };
       #手势
-      gestures = {
-        workspace_swipe = false;
-      };
+      # gestures = {
+      #   workspace_swipe = false;
+      # };
       #设备
       device = {
         name = "epic-mouse-v1";

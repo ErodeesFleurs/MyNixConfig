@@ -10,6 +10,7 @@
     ./localsend
     ./netdrive
     ./network
+    ./rustdesk
     ./stylix
     ./system
     ./systemd
