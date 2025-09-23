@@ -38,12 +38,12 @@
     fish
 
     qq
-    wechat-uos
+    wechat
     discord
     feishu
     telegram-desktop
     fleurs-nur.packages.${pkgs.system}.dingtalk
-    fleurs-nur.packages.${pkgs.system}.uudeck
+    # fleurs-nur.packages.${pkgs.system}.uudeck
 
     hmcl
     osu-lazer-bin

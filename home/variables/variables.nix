@@ -21,6 +21,8 @@
       XDG_SESSION_DESKTOP = "Hyprland";
 
       SDL_VIDEODRIVER = "wayland";
+
+      QT_IM_MODULE = "fcitx";
     };
   }
 }
