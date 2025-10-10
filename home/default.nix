@@ -18,6 +18,7 @@
     ./rofi
     ./stylix
     ./waybar
+    ./winboat
     ./xdg
     ./yazi
   ];

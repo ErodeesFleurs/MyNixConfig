@@ -6,7 +6,7 @@
 }:
 
 {
-  environment.systemPackages = [
+  home.packages = with pkgs; [
     winboat.packages.${system}.winboat
     pkgs.freerdp
   ];

@@ -100,24 +100,6 @@
         "type": "github"
       }
     },
-    "fenix": {
-      "inputs": {
-        "nixpkgs": "nixpkgs",
-        "rust-analyzer-src": "rust-analyzer-src"
-      },
-      "locked": {
-        "lastModified": 1760046570,
-        "narHash": "sha256-KC+8Ogpx54OSXYXX2rnVRBuJLdqZCJbRkWRmebtCFCc=",
-        "owner": "nix-community",
-        "repo": "fenix",
-        "rev": "a60de13d962330ded6fbba74b1e33fe7c85109f4",
-        "type": "github"
-      },
-      "original": {
-        "id": "fenix",
-        "type": "indirect"
-      }
-    },
     "firefox-gnome-theme": {
       "flake": false,
       "locked": {
@@ -670,22 +652,6 @@
         "type": "github"
       }
     },
-    "nixpkgs_2": {
-      "locked": {
-        "lastModified": 1759831965,
-        "narHash": "sha256-vgPm2xjOmKdZ0xKA6yLXPJpjOtQPHfaZDRtH+47XEBo=",
-        "owner": "nixos",
-        "repo": "nixpkgs",
-        "rev": "c9b6fb798541223bbb396d287d16f43520250518",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nixos",
-        "ref": "nixos-unstable",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
     "nixvim": {
       "inputs": {
         "flake-parts": "flake-parts",
@@ -782,31 +748,14 @@
     },
     "root": {
       "inputs": {
-        "fenix": "fenix",
         "fleurs-nur": "fleurs-nur",
         "home-manager": "home-manager",
         "hyprland": "hyprland",
         "nix-alien": "nix-alien",
-        "nixpkgs": "nixpkgs_2",
+        "nixpkgs": "nixpkgs",
         "nixvim": "nixvim",
-        "stylix": "stylix"
-      }
-    },
-    "rust-analyzer-src": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1759966831,
-        "narHash": "sha256-4B8MMaVQo3QdPPEeIZ6lkrqkfY6cIeuOw56C2InuRDk=",
-        "owner": "rust-lang",
-        "repo": "rust-analyzer",
-        "rev": "1941dfe8e2815f233a88313d2a4a1f8a41e0e97f",
-        "type": "github"
-      },
-      "original": {
-        "owner": "rust-lang",
-        "ref": "nightly",
-        "repo": "rust-analyzer",
-        "type": "github"
+        "stylix": "stylix",
+        "winboat": "winboat"
       }
     },
     "stylix": {
@@ -981,6 +930,26 @@
       "original": {
         "owner": "tinted-theming",
         "repo": "base16-zed",
+        "type": "github"
+      }
+    },
+    "winboat": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1760069375,
+        "narHash": "sha256-VWxRAavCY2xgg2CYg2I/RnV9HnxO3t/Z1jshi07y+AE=",
+        "owner": "TibixDev",
+        "repo": "winboat",
+        "rev": "e4f6208e161fbbb73df9dd9fc5c19f7f5e99ec4e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "TibixDev",
+        "repo": "winboat",
         "type": "github"
       }
     },
