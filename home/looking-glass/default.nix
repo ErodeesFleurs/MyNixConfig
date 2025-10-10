@@ -1,7 +1,0 @@
-{ ... }:
-
-{
-  imports = [
-    ./looking-glass.nix
-  ];
-}
