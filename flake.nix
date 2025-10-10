@@ -41,6 +41,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    winboat = {
+      url = "github:TibixDev/winboat";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     fleurs-nur = {
       url = "github:ErodeesFleurs/FleursNUR";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -55,7 +60,7 @@
       hyprland,
       nix-alien,
       stylix,
-      fenix,
+      winboat,
       fleurs-nur,
       ...
     }:

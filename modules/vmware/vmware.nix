@@ -20,8 +20,7 @@
       enable = true;
       onBoot = "ignore";
       onShutdown = "shutdown";
-      qemu = { 
-        ovmf.enable = true;
+      qemu = {
         swtpm.enable = true;
         runAsRoot = true;
         vhostUserPackages = with pkgs; 

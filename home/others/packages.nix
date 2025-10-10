@@ -49,7 +49,7 @@
     osu-lazer-bin
 
     # wpsoffice
-    aseprite
+    # aseprite
     blender
     pcmanfm
     filezilla
