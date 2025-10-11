@@ -27,6 +27,7 @@
     udiskie
     libnotify
     brightnessctl
+    usbutils
 
     unzip
     zip

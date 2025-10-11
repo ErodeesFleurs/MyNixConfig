@@ -1,13 +1,12 @@
 {
   pkgs,
-  system,
   winboat,
   ...
 }:
 
 {
   home.packages = with pkgs; [
-    winboat.packages.${system}.winboat
+    winboat.packages.${pkgs.system}.winboat
     pkgs.freerdp
   ];
 }
