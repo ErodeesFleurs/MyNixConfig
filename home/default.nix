@@ -8,6 +8,7 @@
     ./dunst
     ./easyeffects
     ./fastfetch
+    ./fish
     ./git
     ./helix
     ./hypr

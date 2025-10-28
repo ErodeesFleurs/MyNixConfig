@@ -38,7 +38,7 @@
     ffmpeg
     mpv
 
-    fish
+    # fish
 
     (qq.override {
       commandLineArgs = [
@@ -57,6 +57,7 @@
 
     # wpsoffice
     # aseprite
+    steamcmd
     baidupcs-go
     blender
     pcmanfm

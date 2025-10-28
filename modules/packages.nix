@@ -6,7 +6,6 @@
     hyprpolkitagent
     lxqt.lxqt-policykit
     xdg-utils
-    steamcmd
   ];
 
   programs.nix-ld.enable = true;
