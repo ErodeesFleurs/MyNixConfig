@@ -1,7 +1,7 @@
 {
   pkgs,
   lib,
-  fleurs-nur,
+  inputs,
   ...
 }:
 
@@ -42,7 +42,7 @@
 
     (qq.override {
       commandLineArgs = [
-        "--text-input-version=3"
+        "--wayland-text-input-version=3"
       ];
     })
 
@@ -50,8 +50,7 @@
     discord
     feishu
     telegram-desktop
-    fleurs-nur.packages.${pkgs.system}.dingtalk
-    # fleurs-nur.packages.${pkgs.system}.uudeck
+    inputs.fleurs-nur.packages.${pkgs.system}.dingtalk
 
     hmcl
     osu-lazer-bin

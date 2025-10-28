@@ -69,21 +69,23 @@
         spectre = nixpkgs.lib.nixosSystem {
           system = "x86_64-linux";
           modules = [
-            home-manager.nixosModules.home-manager
             stylix.nixosModules.stylix
-            hyprland.nixosModules.default
-            {
-              home-manager.useGlobalPkgs = false;
-              home-manager.useUserPackages = true;
-
-              home-manager.users.fleurs = import ./home.nix;
-              home-manager.extraSpecialArgs = inputs;
-
-              home-manager.backupFileExtension = "hm-backup";
-            }
             ./configuration.nix
           ];
           specialArgs = {
+            inherit inputs;
+          };
+        };
+      };
+      homeConfigurations = {
+        fleurs = home-manager.lib.homeManagerConfiguration {
+          pkgs = nixpkgs.legacyPackages.x86_64-linux;
+          modules = [
+            stylix.homeModules.stylix
+            nixvim.homeModules.nixvim
+            ./home.nix
+          ];
+          extraSpecialArgs = {
             inherit inputs;
           };
         };
