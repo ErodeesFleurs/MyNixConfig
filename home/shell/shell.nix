@@ -1,7 +1,7 @@
 { pkgs, ... }:
 
 {
-  shell = {
+  home.shell = {
     enableNushellIntegration = true;
   };
 }
