@@ -1,0 +1,7 @@
+{ pkgs, ... }:
+
+{
+  shell = {
+    enableNushellIntegration = true;
+  };
+}

@@ -68,17 +68,20 @@
   hardware.graphics.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.fleurs = {
-    isNormalUser = true;
-    description = "ErodeesFleurs";
-    extraGroups = [
-      "networkmanager"
-      "wheel"
-      "docker"
-      "libvirt"
-      "kvm"
-    ];
-    packages = with pkgs; [];
+  users = {
+      users.fleurs = {
+      isNormalUser = true;
+      description = "ErodeesFleurs";
+      extraGroups = [
+        "networkmanager"
+        "wheel"
+        "docker"
+        "libvirt"
+        "kvm"
+      ];
+      shell = pkgs.nushell;
+      packages = with pkgs; [];
+    };
   };
 
   security.polkit.enable = true;
