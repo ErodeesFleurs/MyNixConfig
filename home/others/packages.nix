@@ -34,11 +34,18 @@
     kdePackages.ark
     lazygit
     kdePackages.okular
-    kchmviewer
+    ueberzugpp
+    ffmpeg
+    mpv
 
     fish
 
-    qq
+    (qq.override {
+      commandLineArgs = [
+        "--text-input-version=3"
+      ];
+    })
+
     wechat
     discord
     feishu
@@ -51,6 +58,7 @@
 
     # wpsoffice
     # aseprite
+    baidupcs-go
     blender
     pcmanfm
     filezilla

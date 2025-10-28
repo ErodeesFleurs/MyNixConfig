@@ -4,7 +4,7 @@
   stylix = {
     enable = true;
 
-    image = ../../media/wallpapers/maid.jpg;
+    image = ../../media/wallpapers/1.jpg;
 
     cursor = {
       package = pkgs.catppuccin-cursors.mochaDark;

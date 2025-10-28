@@ -230,6 +230,10 @@
         "suppressevent maximize, class:.*"
         #修复 XWayland 的一些拖拽问题
         "nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0"
+        #修复 wechat 多余边框
+        "noborder, class:^(wechat)$,title:negative:^(朋友圈)$"
+        "noblur, class:^(wechat)$,title:negative:^(朋友圈)$"
+        "noshadow, class:^(wechat)$,title:negative:^(朋友圈)$"
       ];
     };
   };
