@@ -38,7 +38,7 @@
     ffmpeg
     mpv
 
-    # fish
+    fish
 
     (qq.override {
       commandLineArgs = [

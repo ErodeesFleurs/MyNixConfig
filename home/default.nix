@@ -8,7 +8,6 @@
     ./dunst
     ./easyeffects
     ./fastfetch
-    ./fish
     ./git
     ./helix
     ./hypr
@@ -17,6 +16,7 @@
     ./openstarbound
     ./others
     ./rofi
+    ./shell
     ./stylix
     ./waybar
     ./winboat
