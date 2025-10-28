@@ -3,6 +3,7 @@
 {
   stylix = {
     enable = true;
+    autoEnable = true;
 
     image = ../../media/wallpapers/1.jpg;
 
@@ -35,8 +36,15 @@
       };
     };
 
-    opacity = {
-      terminal = 0.9;
+    icons = {
+      enable = true;
+      package = pkgs.material-design-icons;
     };
+
+    opacity = {
+      terminal = 0.7;
+    };
+
+    polarity = "light";
   };
 }
