@@ -2,6 +2,6 @@
 
 {
   imports = [
-    ./btop.nix
+    ./vicinae.nix
   ];
 }

@@ -62,9 +62,7 @@
       appearance = {
         font_name = "CaskaydiaMonoNerdFont";
         style = "Islands";
-        opacity = 0.6;
         menu = {
-          opacity = 0.7;
           backdrop = 0.5;
         };
       };
