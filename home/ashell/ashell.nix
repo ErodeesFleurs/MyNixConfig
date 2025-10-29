@@ -6,12 +6,11 @@
     settings = {
       outputs = "All";
       position = "Top";
-      app_launcher_cmd = "vicinae toggle";
-      clipboard_cmd = "cliphist-rofi-img | wl-copy";
       truncate_title_after_length = 150;
 
       modules = {
         left = [
+          "appLauncher"
           "Workspaces"
         ];
         center = [ "WindowTitle" ];
@@ -23,7 +22,7 @@
             "Privacy"
             "Settings"
           ]
-          "CustomNotifications"
+          # "CustomNotifications"
         ];
       };
 
@@ -57,6 +56,8 @@
 
       settings = {
         lock_cmd = "hyprlock &";
+        wifi_more_cmd = "nm-connection-editor";
+        vpn_more_cmd = "nm-connection-editor";
       };
 
       appearance = {
@@ -66,6 +67,14 @@
           backdrop = 0.5;
         };
       };
+
+      CustomModule = [
+        {
+          name = "appLauncher";
+          icon = "󱗼";
+          command = "vicinae toggle";
+        }
+      ];
     };
   };
 }

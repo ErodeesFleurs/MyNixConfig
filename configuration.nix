@@ -69,7 +69,7 @@
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users = {
-      users.fleurs = {
+    users.fleurs = {
       isNormalUser = true;
       description = "ErodeesFleurs";
       extraGroups = [
@@ -80,7 +80,7 @@
         "kvm"
       ];
       shell = pkgs.nushell;
-      packages = with pkgs; [];
+      packages = with pkgs; [ ];
     };
   };
 

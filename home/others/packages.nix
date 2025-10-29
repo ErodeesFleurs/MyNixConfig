@@ -28,6 +28,7 @@
     libnotify
     brightnessctl
     usbutils
+    networkmanagerapplet
 
     unzip
     zip
