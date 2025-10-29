@@ -40,7 +40,10 @@
 
     (qq.override {
       commandLineArgs = [
-        "--wayland-text-input-version=3"
+        # "--ozone-platform=wayland"
+        "--enable-wayland-ime"
+        "--text-input-version=3"
+        # "--wayland-text-input-version=3"
       ];
     })
 

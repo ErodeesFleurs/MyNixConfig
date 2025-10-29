@@ -6,7 +6,7 @@
     settings = {
       outputs = "All";
       position = "Top";
-      app_launcher_cmd = "~/.config/rofi/launcher.sh";
+      app_launcher_cmd = "vicinae toggle";
       clipboard_cmd = "cliphist-rofi-img | wl-copy";
       truncate_title_after_length = 150;
 

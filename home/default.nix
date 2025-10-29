@@ -15,10 +15,10 @@
     ./obs-studio
     ./openstarbound
     ./others
-    ./rofi
     ./shell
     ./stylix
-    ./waybar
+    ./variables
+    ./vicinae
     ./winboat
     ./xdg
     ./yazi

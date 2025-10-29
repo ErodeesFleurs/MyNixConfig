@@ -67,6 +67,7 @@
       hyprland,
       nix-alien,
       stylix,
+      vicinae,
       winboat,
       fleurs-nur,
       ...

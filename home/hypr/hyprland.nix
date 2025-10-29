@@ -38,7 +38,7 @@
       ];
       "$mainMod" = "SUPER";
       "$terminal" = "alacritty";
-      "$menu" = "sh ~/.config/rofi/launchers/launcher.sh";
+      "$menu" = "vicinae toggle";
       "$browser" = "chromium";
       "$colorpicker" = "hyprpicker -a";
       #通常
@@ -62,18 +62,9 @@
       decoration = {
         rounding = 10;
 
-        # Change transparency of focused and unfocused windows
         active_opacity = 1.0;
         inactive_opacity = 1.0;
 
-        #shadow = {
-        #    enabled = true;
-        #    range = 4;
-        #    render_power = 3;
-        #    color = "rgba(1a1a1aee)";
-        #};
-
-        # https://wiki.hyprland.org/Configuring/Variables/#blur
         blur = {
           enabled = true;
           size = 10;
@@ -143,10 +134,7 @@
           natural_scroll = false;
         };
       };
-      #手势
-      # gestures = {
-      #   workspace_swipe = false;
-      # };
+
       #设备
       device = {
         name = "epic-mouse-v1";
@@ -223,6 +211,12 @@
         ", XF86AudioPause, exec, playerctl play-pause"
         ", XF86AudioPlay, exec, playerctl play-pause"
         ", XF86AudioPrev, exec, playerctl previous"
+      ];
+
+      layerrule = [
+        "blur,vicinae"
+        "ignorealpha 0, vicinae"
+        "noanim, vicinae"
       ];
 
       windowrulev2 = [

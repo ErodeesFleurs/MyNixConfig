@@ -8,7 +8,7 @@
       # 设置默认的终端
       TERMINAL = "alacritty";
       # 设置默认的编辑器
-      EDITOR = "nvim";
+      EDITOR = "hx";
       # 设置默认的文件管理器
       FILE_MANAGER = "pcmanfm";
        
@@ -16,13 +16,7 @@
       
       WLR_NO_HARDWARE_CURSORS = "1";
 
-      XDG_CURRENT_DESKTOP = "Hyprland";
-      XDG_SESSION_TYPE = "wayland";
-      XDG_SESSION_DESKTOP = "Hyprland";
-
       SDL_VIDEODRIVER = "wayland";
-
-      QT_IM_MODULE = "fcitx";
     };
-  }
+  };
 }
