@@ -19,7 +19,6 @@
     ./stylix
     ./variables
     ./vicinae
-    ./winboat
     ./xdg
     ./yazi
   ];
