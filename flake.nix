@@ -23,18 +23,8 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    nixvim = {
-      url = "github:nix-community/nixvim";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
     hyprland = {
       url = "git+https://github.com/hyprwm/Hyprland?submodules=1";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
-    nix-alien = {
-      url = "github:thiagokokada/nix-alien";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -58,9 +48,7 @@
     inputs@{
       nixpkgs,
       home-manager,
-      nixvim,
       hyprland,
-      nix-alien,
       stylix,
       vicinae,
       fleurs-nur,

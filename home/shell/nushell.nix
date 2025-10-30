@@ -43,12 +43,10 @@
         } | do $in $spans
       }
 
-      $env.config = {
-        completions = {
-          external: {
-            enable: true
-            completer: $external_completer
-          }
+      $env.config.completions = {
+        external: {
+          enable: true
+          completer: $external_completer
         }
       }
                   

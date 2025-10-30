@@ -11,7 +11,6 @@
     ./git
     ./helix
     ./hypr
-    ./nixvim
     ./obs-studio
     ./openstarbound
     ./others
