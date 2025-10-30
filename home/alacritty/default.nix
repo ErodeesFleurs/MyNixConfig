@@ -3,6 +3,5 @@
 {
   imports = [
     ./alacritty.nix
-    ./bash.nix
   ];
 }

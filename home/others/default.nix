@@ -3,6 +3,5 @@
 {
   imports = [
     ./packages.nix
-    ./dev.nix
   ];
 }
