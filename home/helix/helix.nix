@@ -1,18 +1,29 @@
-{ ... }:
+{ pkgs, ... }:
 
 {
   # git 相关配置
   programs.helix = {
     enable = true;
+    defaultEditor = true;
+
+    extraPackages = with pkgs; [
+      nil
+      nixd
+      nixfmt
+
+      helix-gpt
+
+      rust-analyzer
+    ];
+
     settings = {
-      # theme = "tokyonight";
       editor = {
         line-number = "relative";
         mouse = true;
         cursorline = true;
         cursorcolumn = false;
         bufferline = "multiple";
-        
+
         cursor-shape = {
           insert = "bar";
           normal = "block";
@@ -43,6 +54,36 @@
           };
         };
       };
+    };
+
+    languages = {
+      language-server = {
+        gpt = {
+          command = "helix-gpt";
+          args = [
+            "--handler"
+            "copilot"
+          ];
+        };
+
+        rust-analyzer.config.check = {
+          command = "clippy";
+        };
+      };
+      language = [
+        {
+          name = "nix";
+          formatter = {
+            command = "nixfmt";
+          };
+          auto-format = true;
+        }
+        {
+          name = "rust";
+          language-servers = [ "rust-analyzer" ];
+          auto-format = true;
+        }
+      ];
     };
   };
 }

@@ -16,16 +16,17 @@
     ./modules
   ];
 
-  # Enable the KDE Plasma Desktop Environment.
   services.displayManager.sddm = {
     enable = true;
     wayland.enable = true;
     package = pkgs.kdePackages.sddm;
-    theme = "catppuccin-mocha";
+    autoNumlock = true;
+    theme = "catppuccin-latte-sky";
   };
   environment.systemPackages = [
     (pkgs.catppuccin-sddm.override {
-      flavor = "mocha";
+      flavor = "latte";
+      accent = "sky";
       font = "CaskaydiaMonoNerdFont";
       fontSize = "9";
       # background = "${./wallpaper.png}";

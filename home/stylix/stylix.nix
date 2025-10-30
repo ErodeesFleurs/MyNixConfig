@@ -6,6 +6,7 @@
     autoEnable = true;
 
     image = ../../media/wallpapers/1.jpg;
+    base16Scheme = "${pkgs.base16-schemes}/share/themes/gruvbox-material-light-hard.yaml";
 
     cursor = {
       package = pkgs.catppuccin-cursors.mochaDark;

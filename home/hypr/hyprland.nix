@@ -18,7 +18,6 @@
 
         "BROWSER,chromium"
         "TERMINAL,alacritty"
-        "EDITOR,nvim"
         "FILE_MANAGER,pcmanfm"
       ];
       monitor = [ ",preferred,auto,1" ];

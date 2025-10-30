@@ -66,6 +66,8 @@
     filezilla
     openvpn
     typora
+
+    base16-schemes
   ];
 
 }
