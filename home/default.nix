@@ -11,6 +11,8 @@
     ./git
     ./helix
     ./hypr
+    ./mpv
+    ./nixcord
     ./obs-studio
     ./openstarbound
     ./others

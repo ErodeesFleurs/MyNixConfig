@@ -28,6 +28,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    nixcord = {
+      url = "github:kaylorben/nixcord";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     stylix = {
       url = "github:danth/stylix";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -46,12 +51,13 @@
 
   outputs =
     inputs@{
-      nixpkgs,
-      home-manager,
-      hyprland,
       stylix,
+      nixpkgs,
+      nixcord,
       vicinae,
+      hyprland,
       fleurs-nur,
+      home-manager,
       ...
     }:
     {
@@ -72,6 +78,7 @@
           pkgs = nixpkgs.legacyPackages.x86_64-linux;
           modules = [
             stylix.homeModules.stylix
+            nixcord.homeModules.nixcord
             vicinae.homeManagerModules.default
             ./home.nix
           ];

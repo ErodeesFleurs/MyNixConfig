@@ -36,7 +36,6 @@
     kdePackages.okular
     ueberzugpp
     ffmpeg
-    mpv
 
     (qq.override {
       commandLineArgs = [
