@@ -11,7 +11,6 @@
 
 {
   imports = [
-    # Include the results of the hardware scan.
     ./hardware-configuration.nix
     ./modules
   ];
@@ -33,9 +32,6 @@
       loginBackground = true;
     })
   ];
-
-  #   services.desktopManager.plasma6.enable = true;
-  #   services.displayManager.autoLogin.enable = false;
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
@@ -68,7 +64,6 @@
       extraGroups = [
         "networkmanager"
         "wheel"
-        "docker"
         "libvirt"
         "kvm"
       ];
