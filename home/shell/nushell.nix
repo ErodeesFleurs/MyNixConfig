@@ -49,7 +49,7 @@
           completer: $external_completer
         }
       }
-      $env.SSH_AUTH_SOCK = $"($env.XDG_RUNTIME_DIR)/ssh-agent.socket"
+      $env.SSH_AUTH_SOCK = $"($env.XDG_RUNTIME_DIR)/ssh-agent"
                   
       clear; fastfetch
     '';
