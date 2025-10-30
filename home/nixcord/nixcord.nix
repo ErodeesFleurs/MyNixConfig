@@ -20,14 +20,10 @@
     config = {
       frameless = true;
       autoUpdate = false;
-      notifyAboutUpdates = fasle;
+      notifyAboutUpdates = false;
       autoUpdateNotification = false;
 
-      plugins = {
-        hideAttachments = {
-          enable = true;
-        };
-      };
+      plugins = {};
     };
   };
 }

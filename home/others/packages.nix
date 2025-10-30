@@ -39,15 +39,12 @@
 
     (qq.override {
       commandLineArgs = [
-        # "--ozone-platform=wayland"
         "--enable-wayland-ime"
         "--text-input-version=3"
-        # "--wayland-text-input-version=3"
       ];
     })
 
     wechat
-    discord
     feishu
     telegram-desktop
     inputs.fleurs-nur.packages.${pkgs.system}.dingtalk
