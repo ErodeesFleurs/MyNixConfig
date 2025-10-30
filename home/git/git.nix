@@ -1,14 +1,7 @@
 { ... }:
 
 {
-  # git 相关配置
-  programs.git = {
+  programs.gitui = {
     enable = true;
-    settings = {
-      user = {
-        email = "862959461@qq.com";
-        name = "ErodeesFleurs";
-      };
-    };
   };
 }
