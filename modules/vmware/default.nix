@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ./docker.nix
+    ./podman.nix
     ./vmware.nix
   ];
 }
