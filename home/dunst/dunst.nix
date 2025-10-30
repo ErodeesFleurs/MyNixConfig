@@ -61,22 +61,15 @@
       };
 
       urgency_low = {
-      #   background = "#1e1e2e";
-      #   foreground = "#cdd6f4";
-      #   highlight = "#cba6f7";
         timeout = 4;
       };
 
       urgency_normal = {
-      #   background = "#1e1e2e";
-      #   foreground = "#cdd6f4";
         highlight = "#cba6f7";
         timeout = 6;
       };
 
       urgency_critical = {
-        # background = "#1e1e2e";
-        # foreground = "#cdd6f4";
         highlight = "#cba6f7";
         timeout = 0;
       };
