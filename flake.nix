@@ -43,6 +43,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    xddxdd-nur = {
+      url = "github:xddxdd/nur-packages";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     fleurs-nur = {
       url = "github:ErodeesFleurs/FleursNUR";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -56,6 +61,7 @@
       nixcord,
       vicinae,
       hyprland,
+      xddxdd-nur,
       fleurs-nur,
       home-manager,
       ...

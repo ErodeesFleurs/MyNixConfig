@@ -7,22 +7,22 @@
     packages = with pkgs; [
       noto-fonts
       noto-fonts-cjk-sans
-      noto-fonts-emoji
+      noto-fonts-color-emoji
 
       font-awesome
-      
+
       source-code-pro
       source-han-sans
       source-han-serif
       source-han-mono
-      
+
       sarasa-gothic
-      
+
       corefonts
-      
-      vistafonts
-      vistafonts-cht
-      vistafonts-chs
+
+      vista-fonts
+      vista-fonts-cht
+      vista-fonts-chs
 
       wqy_microhei
       wqy_zenhei

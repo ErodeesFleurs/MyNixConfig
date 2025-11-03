@@ -1,6 +1,5 @@
 {
   pkgs,
-  lib,
   inputs,
   ...
 }:
@@ -9,8 +8,7 @@
   nixpkgs = {
     config = {
       allowUnfree = true;
-      permittedInsecurePackages = [
-      ];
+      permittedInsecurePackages = [ ];
     };
   };
 
@@ -47,7 +45,7 @@
     wechat
     feishu
     telegram-desktop
-    inputs.fleurs-nur.packages.${pkgs.system}.dingtalk
+    inputs.xddxdd-nur.packages.${pkgs.stdenv.hostPlatform.system}.dingtalk
 
     hmcl
     osu-lazer-bin

@@ -53,6 +53,10 @@
             select = "SELECT";
           };
         };
+        lsp = {
+          enable = true;
+          display-inlay-hints = true;
+        };
       };
     };
 

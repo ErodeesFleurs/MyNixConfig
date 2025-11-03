@@ -5,7 +5,7 @@
   programs.nixcord = {
     enable = true;
 
-    vesktop.enable = true;
+    vesktop.enable = false;
 
     dorion = {
       enable = true;
@@ -23,7 +23,7 @@
       notifyAboutUpdates = false;
       autoUpdateNotification = false;
 
-      plugins = {};
+      plugins = { };
     };
   };
 }

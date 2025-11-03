@@ -5,7 +5,7 @@
 }:
 
 {
-  home.packages = with pkgs; [
-    inputs.fleurs-nur.packages.${pkgs.system}.openstarbound
+  home.packages = [
+    inputs.fleurs-nur.packages.${pkgs.stdenv.hostPlatform.system}.openstarbound
   ];
 }
