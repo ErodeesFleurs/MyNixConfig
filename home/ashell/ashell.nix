@@ -26,7 +26,7 @@
         ];
       };
 
-      system = {
+      system_info = {
         indicators = [
           "Cpu"
           "Memory"

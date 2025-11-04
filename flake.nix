@@ -43,6 +43,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    winapps = {
+      url = "github:winapps-org/winapps";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     xddxdd-nur = {
       url = "github:xddxdd/nur-packages";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -57,6 +62,7 @@
   outputs =
     inputs@{
       stylix,
+      winapps,
       nixpkgs,
       nixcord,
       vicinae,

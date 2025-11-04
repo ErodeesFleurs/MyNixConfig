@@ -55,7 +55,14 @@
         };
         lsp = {
           enable = true;
+          display-messages = true;
+          display-progress-messages = true;
+          auto-signature-help = true;
           display-inlay-hints = true;
+          display-color-swatches = true;
+          display-signature-help-docs = true;
+          snippets = true;
+          goto-reference-include-declaration = true;
         };
       };
     };
