@@ -34,6 +34,7 @@
     kdePackages.okular
     ueberzugpp
     ffmpeg
+    freerdp
 
     (qq.override {
       commandLineArgs = [

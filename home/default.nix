@@ -8,6 +8,7 @@
     ./dunst
     ./easyeffects
     ./fastfetch
+    ./ghostty
     ./git
     ./helix
     ./hypr

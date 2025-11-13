@@ -14,6 +14,15 @@
       helix-gpt
 
       rust-analyzer
+
+      ruff
+      (python313.withPackages (python-pkgs: [
+        python-pkgs.python-lsp-ruff
+        python-pkgs.python-lsp-server
+      ]))
+
+      stylua
+      emmylua-ls
     ];
 
     settings = {
@@ -80,6 +89,10 @@
         rust-analyzer.config.check = {
           command = "clippy";
         };
+
+        emmylua-ls = {
+          command = "emmylua_ls";
+        };
       };
       language = [
         {
@@ -91,7 +104,37 @@
         }
         {
           name = "rust";
-          language-servers = [ "rust-analyzer" ];
+          language-servers = [
+            "rust-analyzer"
+            "gpt"
+          ];
+          auto-format = true;
+        }
+        {
+          name = "python";
+          language-servers = [
+            "pylsp"
+            "gpt"
+          ];
+          formatter = {
+            command = "sh";
+            args = [
+              "-c"
+              "ruff check --select I --fix - | ruff format --line-length 88 -"
+            ];
+          };
+          auto-format = true;
+        }
+        {
+          name = "lua";
+          language-servers = [
+            "emmylua-ls"
+            "gpt"
+          ];
+          formatter = {
+            command = "stylua";
+            args = [ "-" ];
+          };
           auto-format = true;
         }
       ];
