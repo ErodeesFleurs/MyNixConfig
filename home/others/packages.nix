@@ -33,6 +33,8 @@
     kdePackages.okular
     ffmpeg
     freerdp
+    kdePackages.dolphin
+    kdePackages.dolphin-plugins
 
     (qq.override {
       commandLineArgs = [
