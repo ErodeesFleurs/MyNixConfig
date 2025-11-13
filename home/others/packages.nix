@@ -32,7 +32,6 @@
     kdePackages.ark
     lazygit
     kdePackages.okular
-    ueberzugpp
     ffmpeg
     freerdp
 

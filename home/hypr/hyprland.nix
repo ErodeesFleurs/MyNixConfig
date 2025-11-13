@@ -17,7 +17,6 @@
         "HYPRSHOT_DIR,$HOME/Pictures/Screenshots"
 
         "BROWSER,chromium"
-        "TERMINAL,alacritty"
         "FILE_MANAGER,pcmanfm"
       ];
       monitor = [ ",preferred,auto,1" ];
@@ -36,7 +35,7 @@
         "lxqt-policykit-agent"
       ];
       "$mainMod" = "SUPER";
-      "$terminal" = "alacritty";
+      "$terminal" = "ghostty";
       "$menu" = "vicinae toggle";
       "$browser" = "chromium";
       "$colorpicker" = "hyprpicker -a";
@@ -46,9 +45,6 @@
         gaps_out = 20;
 
         border_size = 2;
-
-        # "col.active_border" = "rgba(cba6f7ff)";
-        # "col.inactive_border" = "rgba(313244ff)";
 
         resize_on_border = false;
 

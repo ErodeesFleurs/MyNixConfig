@@ -23,6 +23,8 @@
 
       stylua
       emmylua-ls
+
+      clang-tools
     ];
 
     settings = {
@@ -95,6 +97,16 @@
         };
       };
       language = [
+        {
+          name = "c";
+          language-servers = [ "clangd" ];
+          auto-format = true;
+        }
+        {
+          name = "cpp";
+          language-servers = [ "clangd" ];
+          auto-format = true;
+        }
         {
           name = "nix";
           formatter = {

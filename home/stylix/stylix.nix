@@ -1,4 +1,4 @@
-{ stylix, pkgs, ... }:
+{ pkgs, ... }:
 
 {
   stylix = {
@@ -22,8 +22,8 @@
       };
 
       monospace = {
-        package = pkgs.nerd-fonts.dejavu-sans-mono;
-        name = "CaskaydiaMono Nerd Font Mono";
+        package = pkgs.nerd-fonts.caskaydia-cove;
+        name = "CaskaydiaCove Nerd Font Mono";
       };
 
       sansSerif = {
@@ -43,7 +43,7 @@
     # };
 
     opacity = {
-      terminal = 0.7;
+      terminal = 0.8;
     };
 
     polarity = "light";
