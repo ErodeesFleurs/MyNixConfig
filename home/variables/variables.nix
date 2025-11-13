@@ -10,7 +10,7 @@
       # 设置默认的编辑器
       EDITOR = "hx";
       # 设置默认的文件管理器
-      FILE_MANAGER = "pcmanfm";
+      FILE_MANAGER = "dolphin";
 
       NIXOS_OZONE_WL = "1";
 

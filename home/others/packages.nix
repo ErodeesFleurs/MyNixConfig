@@ -55,7 +55,6 @@
     steamcmd
     baidupcs-go
     blender
-    pcmanfm
     filezilla
     openvpn
     typora
