@@ -11,6 +11,10 @@
       trusted-users = [
         "fleurs"
       ];
+      substituters = [
+        "https://cache.nixos.org"
+      ];
+      trusted-public-keys = [ ];
     };
     optimise = {
       automatic = true;

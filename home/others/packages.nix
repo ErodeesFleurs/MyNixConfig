@@ -30,7 +30,6 @@
     unzip
     zip
     kdePackages.ark
-    lazygit
     kdePackages.okular
     ffmpeg
     freerdp
@@ -47,7 +46,6 @@
     telegram-desktop
     inputs.xddxdd-nur.packages.${pkgs.stdenv.hostPlatform.system}.dingtalk
 
-    hmcl
     osu-lazer-bin
 
     # wpsoffice

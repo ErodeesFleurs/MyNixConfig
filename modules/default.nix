@@ -3,6 +3,7 @@
     ./appimage
     ./boot
     ./gpu
+    ./filemanager
     ./fonts
     ./games
     ./hyprland

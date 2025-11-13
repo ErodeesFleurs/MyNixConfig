@@ -1,4 +1,4 @@
-{ pkgs, hyprland, ... }:
+{ ... }:
 
 {
   wayland.windowManager.hyprland = {
@@ -15,15 +15,10 @@
         "HYPRCURSOR_THEME,"
         "HYPRCURSOR_SIZE,24"
         "HYPRSHOT_DIR,$HOME/Pictures/Screenshots"
-
-        "BROWSER,chromium"
-        "FILE_MANAGER,pcmanfm"
       ];
       monitor = [ ",preferred,auto,1" ];
       exec-once = [
         "systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
-        # "waybar"
-        "ashell"
         "hyprpaper"
         "hypridle"
         "swww-daemon"

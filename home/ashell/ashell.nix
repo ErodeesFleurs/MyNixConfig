@@ -3,6 +3,7 @@
 {
   programs.ashell = {
     enable = true;
+    systemd.enable = true;
     settings = {
       outputs = "All";
       position = "Top";

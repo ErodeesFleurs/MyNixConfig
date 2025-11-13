@@ -37,10 +37,12 @@
       };
     };
 
-    # icons = {
-    #   enable = true;
-    #   package = pkgs.material-design-icons;
-    # };
+    icons = {
+      enable = true;
+      package = pkgs.vimix-icon-theme;
+      light = "Vimix-stander-dark";
+      dark = "Vimix-stander-dark";
+    };
 
     opacity = {
       terminal = 0.8;

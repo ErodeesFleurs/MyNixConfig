@@ -36,10 +36,10 @@
       };
     };
 
-    icons = {
-      enable = true;
-      package = pkgs.material-design-icons;
-    };
+    # icons = {
+    #   enable = true;
+    #   package = pkgs.material-design-icons;
+    # };
 
     opacity = {
       terminal = 0.7;
