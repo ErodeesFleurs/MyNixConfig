@@ -203,21 +203,17 @@
         ", XF86AudioPrev, exec, playerctl previous"
       ];
 
-      layerrule = [
-        "blur,vicinae"
-        "ignorealpha 0, vicinae"
-        "noanim, vicinae"
-      ];
+      layerrule = [ ];
 
-      windowrulev2 = [
+      windowrule = [
         #忽略应用程序的最大化请求。
-        "suppressevent maximize, class:.*"
+        "match:class .*, suppress_event maximize"
         #修复 XWayland 的一些拖拽问题
-        "nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0"
+        "match:class ^$,match:title ^$, match:xwayland 1, float 1, fullscreen 0, pin 0"
         #修复 wechat 多余边框
-        "noborder, class:^(wechat)$,title:negative:^(朋友圈)$"
-        "noblur, class:^(wechat)$,title:negative:^(朋友圈)$"
-        "noshadow, class:^(wechat)$,title:negative:^(朋友圈)$"
+        "match:class ^(wechat)$, match:title negative:^(朋友圈)$, border_size 1"
+        "match:class ^(wechat)$, match:title negative:^(朋友圈)$, no_blur 1"
+        "match:class ^(wechat)$, match:title negative:^(朋友圈)$, no_shadow 1"
       ];
     };
   };

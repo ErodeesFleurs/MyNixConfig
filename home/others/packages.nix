@@ -26,6 +26,7 @@
     brightnessctl
     usbutils
     networkmanagerapplet
+    sshfs
 
     unzip
     zip
@@ -43,7 +44,7 @@
       ];
     })
 
-    wechat
+    wechat-uos
     feishu
     telegram-desktop
     inputs.xddxdd-nur.packages.${pkgs.stdenv.hostPlatform.system}.dingtalk

@@ -24,7 +24,6 @@
 
     hyprland = {
       url = "git+https://github.com/hyprwm/Hyprland?submodules=1";
-      inputs.nixpkgs.follows = "nixpkgs";
     };
 
     nixcord = {
@@ -39,7 +38,6 @@
 
     vicinae = {
       url = "github:vicinaehq/vicinae";
-      inputs.nixpkgs.follows = "nixpkgs";
     };
 
     winapps = {

@@ -25,6 +25,10 @@
       emmylua-ls
 
       clang-tools
+
+      taplo
+
+      zls
     ];
 
     settings = {
@@ -147,6 +151,20 @@
             command = "stylua";
             args = [ "-" ];
           };
+          auto-format = true;
+        }
+        {
+          name = "toml";
+          language-servers = [
+            "taplo"
+          ];
+          auto-format = true;
+        }
+        {
+          name = "zig";
+          language-servers = [
+            "zls"
+          ];
           auto-format = true;
         }
       ];
