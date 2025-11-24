@@ -1,8 +1,8 @@
 { pkgs, config, ... }:
 let
-  USER_ID = 1000;
+  # USER_ID = 1000;
   USER = "fleurs";
-  KEY_FILE = "id_rsa";
+  KEY_FILE = "id_ed25519";
 in
 {
   programs.ssh = {
