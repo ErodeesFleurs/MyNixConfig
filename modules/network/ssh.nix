@@ -1,25 +1,10 @@
-{ pkgs, config, ... }:
-let
-  # USER_ID = 1000;
-  USER = "fleurs";
-  KEY_FILE = "id_ed25519";
-in
+{ ... }:
 {
   programs.ssh = {
     startAgent = true;
-  };
-
-  systemd.user.services.ssh-add-key = {
-    wantedBy = [ "default.target" ];
-    after = [ "ssh-agent.service" ];
-    serviceConfig = {
-      Type = "oneshot";
-      ExecStartPre = "${pkgs.coreutils-full}/bin/sleep 1";
-      ExecStart = [
-        "${pkgs.openssh}/bin/ssh-add ${config.users.users.${USER}.home}/.ssh/${KEY_FILE}"
-      ];
-      Restart = "on-failure";
-      RestartSec = 1;
+    knownHosts = {
+      "github.com".publicKey =
+        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIICXZT5BZTeDTgIk2oEOiZwjtrSLwlnD6tCla410rGut 862959461@qq.com";
     };
   };
 

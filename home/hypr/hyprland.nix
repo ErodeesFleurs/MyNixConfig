@@ -28,6 +28,7 @@
         "wl-paste --watch cliphist store"
         # "systemctl --user status hyprpolkitagent.service"
         "lxqt-policykit-agent"
+        "SSH_AUTH_SOCK=/run/user/1000/ssh-agent"
       ];
       "$mainMod" = "SUPER";
       "$terminal" = "ghostty";
