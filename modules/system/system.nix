@@ -31,5 +31,7 @@
 
   system = {
     stateVersion = "25.11";
+    nixos-init.enable = true;
+    etc.overlay.enable = true;
   };
 }

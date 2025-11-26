@@ -1,6 +1,6 @@
 { ... }:
 {
-  services.goneme-keyring = {
+  services.gnome-keyring = {
     enable = true;
   };
 }
