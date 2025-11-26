@@ -22,5 +22,6 @@
     ./vicinae
     ./xdg
     ./yazi
+    ./zed
   ];
 }

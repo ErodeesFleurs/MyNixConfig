@@ -40,11 +40,6 @@
       url = "github:vicinaehq/vicinae";
     };
 
-    winapps = {
-      url = "github:winapps-org/winapps";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
     xddxdd-nur = {
       url = "github:xddxdd/nur-packages";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -59,11 +54,11 @@
   outputs =
     inputs@{
       stylix,
-      winapps,
       nixpkgs,
       nixcord,
       vicinae,
       hyprland,
+      nixvim,
       xddxdd-nur,
       fleurs-nur,
       home-manager,

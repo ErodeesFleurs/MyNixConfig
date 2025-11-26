@@ -22,13 +22,15 @@
       ]))
 
       stylua
-      emmylua-ls
+      lua-language-server
 
       clang-tools
 
       taplo
 
       zls
+
+      vscode-json-languageserver
     ];
 
     settings = {
@@ -95,10 +97,6 @@
         rust-analyzer.config.check = {
           command = "clippy";
         };
-
-        emmylua-ls = {
-          command = "emmylua_ls";
-        };
       };
       language = [
         {
@@ -144,7 +142,7 @@
         {
           name = "lua";
           language-servers = [
-            "emmylua-ls"
+            "lua-language-server"
             "gpt"
           ];
           formatter = {
@@ -164,6 +162,13 @@
           name = "zig";
           language-servers = [
             "zls"
+          ];
+          auto-format = true;
+        }
+        {
+          name = "json";
+          language-servers = [
+            "vscode-json-language-server"
           ];
           auto-format = true;
         }
