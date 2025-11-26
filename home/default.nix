@@ -11,6 +11,7 @@
     ./git
     ./helix
     ./hypr
+    ./key
     ./mpv
     ./nixcord
     ./obs-studio
