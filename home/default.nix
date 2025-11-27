@@ -1,15 +1,10 @@
 {
   imports = [
-    ./ashell
-    ./btop
     ./chromium
-    ./direnv
+    ./code
+    ./desktop-shell
     ./dunst
     ./easyeffects
-    ./fastfetch
-    ./ghostty
-    ./git
-    ./helix
     ./hypr
     ./key
     ./mpv
@@ -17,12 +12,10 @@
     ./obs-studio
     ./openstarbound
     ./others
-    ./shell
     ./stylix
+    ./terminal
     ./variables
     ./vicinae
     ./xdg
-    ./yazi
-    ./zed
   ];
 }

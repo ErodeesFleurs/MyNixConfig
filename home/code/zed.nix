@@ -10,6 +10,8 @@
 
       basedpyright
       ruff
+
+      rust-analyzer
     ];
     extensions = [
       "lua"
@@ -17,6 +19,7 @@
       "toml"
       "git-firefly"
       "opencode"
+      "gemini"
     ];
     userSettings = {
       auto_signature_help = true;
