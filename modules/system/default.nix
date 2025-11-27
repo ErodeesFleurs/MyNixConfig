@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./boot.nix
     ./nh.nix
     ./power.nix
     ./sudo.nix

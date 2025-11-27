@@ -2,6 +2,8 @@
 
 {
   imports = [
+    ./localsend
+
     ./appimage.nix
   ];
 }

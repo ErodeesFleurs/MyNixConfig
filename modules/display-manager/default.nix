@@ -2,6 +2,6 @@
 
 {
   imports = [
-    ./boot.nix
+    ./sddm.nix
   ];
 }

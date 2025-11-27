@@ -1,10 +1,8 @@
 {
   imports = [
-    ./appimage
-    ./boot
-    ./fonts
+    ./application
+    ./display-manager
     ./games
-    ./gpu
     ./hardware
     ./hyprland
     ./i18n

@@ -1,13 +1,13 @@
 {
   imports = [
-    ./chromium
+    ./browser
     ./code
     ./desktop-shell
     ./dunst
     ./easyeffects
     ./hypr
-    ./key
-    ./mpv
+    ./keyring
+    ./media
     ./nixcord
     ./obs-studio
     ./openstarbound
