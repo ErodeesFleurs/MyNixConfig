@@ -14,6 +14,9 @@
     extensions = [
       "lua"
       "nix"
+      "toml"
+      "git-firefly"
+      "opencode"
     ];
     userSettings = {
       auto_signature_help = true;

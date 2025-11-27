@@ -2,9 +2,10 @@
   imports = [
     ./appimage
     ./boot
-    ./gpu
     ./fonts
     ./games
+    ./gpu
+    ./hardware
     ./hyprland
     ./i18n
     ./localsend

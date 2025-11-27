@@ -7,6 +7,8 @@
       BROWSER = "chromium";
       # 设置默认的终端
       TERMINAL = "ghostty";
+      TERM = "xterm-256color";
+
       # 设置默认的编辑器
       EDITOR = "hx";
       # 设置默认的文件管理器

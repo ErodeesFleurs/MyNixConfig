@@ -94,7 +94,6 @@
           type = "command";
           key = "  OS Age ";
           keyColor = "magenta";
-          # text= "powershell -Command \"(Get-Date) - (gcim Win32_OperatingSystem).InstallDate | ForEach-Object { \\\"$($_.Days) days\\\" }\""  // pwsh
           text = "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"; # bash
         }
         {

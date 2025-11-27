@@ -2,6 +2,6 @@
 
 {
   imports = [
-    ./dconf.nix
+    ./logitech.nix
   ];
 }

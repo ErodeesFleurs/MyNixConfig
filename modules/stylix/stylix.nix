@@ -36,11 +36,6 @@
       };
     };
 
-    # icons = {
-    #   enable = true;
-    #   package = pkgs.material-design-icons;
-    # };
-
     opacity = {
       terminal = 0.7;
     };
