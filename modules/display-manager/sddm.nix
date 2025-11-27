@@ -13,7 +13,7 @@
       accent = "sky";
       font = "CaskaydiaMonoNerdFont";
       fontSize = "9";
-      background = "${./media/wallpapers/1.jpg}";
+      background = "${../../media/wallpapers/1.jpg}";
       loginBackground = true;
     })
   ];

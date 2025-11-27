@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ./font.nix
+    ./fonts.nix
     ./i18n.nix
     ./ime.nix
     ./time.nix

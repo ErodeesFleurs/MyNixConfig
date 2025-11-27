@@ -6,9 +6,9 @@
     ./hardware
     ./hyprland
     ./i18n
-    ./localsend
     ./netdrive
     ./network
+    ./pipewire
     ./stylix
     ./system
     ./systemd
@@ -16,6 +16,7 @@
     ./vmware
     ./xdg
     ./xserver
+
     ./packages.nix
   ];
 }
