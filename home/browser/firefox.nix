@@ -4,7 +4,9 @@
     enable = true;
     profiles = {
       fleurs = {
-
+        extensions = {
+          force = true;
+        };
       };
     };
   };

@@ -6,7 +6,6 @@
     ./hardware
     ./hyprland
     ./i18n
-    ./netdrive
     ./network
     ./pipewire
     ./stylix

@@ -4,7 +4,7 @@
   home = {
     sessionVariables = {
       # 设置默认的浏览器
-      BROWSER = "chromium";
+      BROWSER = "firefox";
       # 设置默认的终端
       TERMINAL = "ghostty";
       TERM = "xterm-256color";

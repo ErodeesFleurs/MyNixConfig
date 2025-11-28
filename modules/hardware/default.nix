@@ -3,7 +3,9 @@
 {
   imports = [
     ./logitech.nix
-    ./nvidia_container.nix
     ./nvidia.nix
+    ./nvidia_container.nix
+    ./printing.nix
+    ./storage.nix
   ];
 }

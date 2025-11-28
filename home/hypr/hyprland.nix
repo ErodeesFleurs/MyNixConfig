@@ -33,7 +33,7 @@
       "$mainMod" = "SUPER";
       "$terminal" = "ghostty";
       "$menu" = "vicinae toggle";
-      "$browser" = "chromium";
+      "$browser" = "firefox";
       "$colorpicker" = "hyprpicker -a";
       #通常
       general = {
